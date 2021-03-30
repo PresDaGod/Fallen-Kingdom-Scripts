@@ -21,6 +21,10 @@
 		},
 		"name": "&3&lKristen"
 	},
+  "Hide": "Kristen",
+
+  "Show": "Kristen",
+
 	"HighlightClickEntity": [
 		"Kristen"
 	],
@@ -131,6 +135,6 @@
 		"Kristen": "Thank you so very much, you have no idea how much this means to us",
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
-
+  "Hide": "Kristen",
 	"Complete": []
 }
