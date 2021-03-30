@@ -3,7 +3,6 @@
 	"Key": "helping_children",
 	"Name": "Helping_Children",
 	"Description": "Help the children collect their items",
-	"Location": "Hub",
 	"Quest": false,
 	"AllowRejoining": true,
 
