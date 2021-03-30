@@ -18,16 +18,6 @@
 		"location": [2039.5, 22, 574.5, 90],
 		"name": "&3&lKristen"
 	},
-
-  "Comment": "Start",
-
-  "If": [],
-	"HasKingdomBuilding": [
-		"mine",
-		3
-	],
-  "Skip": "CreateEntity",
-  "Skip": "Start",
 	"HighlightClickEntity": [
 		"Kristen"
 	],
