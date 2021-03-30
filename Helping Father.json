@@ -14,5 +14,17 @@
     },
     "location": [2041.5, 22, 572.5, 90],
     "name": "&d&lWillie B"
-  }
+  },
+    "Completed": [
+      "helping_parents",
+      "&cYou need to speak to &b&lWillie Jr &c and &3&lKristen &cfirst."
+    ],
+
+    "HighlightClickEntity": [
+      "Willie"
+    ],
+
+    "Dialog": [{
+      "Willie": "So you are the one that I've heard so much about"
+      }]
 }
