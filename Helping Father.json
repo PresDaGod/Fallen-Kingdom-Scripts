@@ -15,6 +15,10 @@
     "location": [2041.5, 22, 572.5, 90],
     "name": "&d&lWillie B"
   },
+    "ClickEntity": [
+      "Willie"
+    ],
+    
     "Completed": [
       "helping_parents",
       "&cYou need to speak to &b&lWillie Jr &c and &3&lKristen &cfirst."
