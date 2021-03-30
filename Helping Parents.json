@@ -27,7 +27,7 @@
 
   "Completed": [
     "helping_children",
-    "&cYou need to speak to &b&lWillie Jr &ffirst."
+    "&cYou need to speak to &b&lWillie Jr &cfirst."
   ],
 
 	"If": [],
@@ -39,7 +39,7 @@
 	"SendMessage": "&cYou need Mines Lvl. III to start this quest.",
 	"Leave": [],
 	"Dialog": [{
-		"Kristen": "Hello there! You must be the one Sofia has talked so much about",
+		"Kristen": "Hello there! You must be the one Willie B has talked so much about",
 		"Kristen": "Would you be able to help us again?"
 	}],
 
@@ -129,7 +129,7 @@
 
 	"Dialog": [{
 		"Kristen": "Thank you so very much, you have no idea how much this means to us",
-		"Kristen": "My husband will be home soon, he may have a job for you then."
+		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
 
 	"Complete": []
