@@ -32,7 +32,8 @@
         3
     ],
     "Skip": "Dialog",
-    "Leave": [],
+    "SendMessage": "YEET",
+      "Leave": [],
     
 	"Dialog": [{
 		"Kristen": "Hello there! You must be the one Sofia has talked so much about",
