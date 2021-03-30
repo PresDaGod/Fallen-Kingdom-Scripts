@@ -22,7 +22,8 @@
 		"name": "&3&lKristen",
     "visible": false
 	},
-
+  "Hold":[],
+  
 	"HighlightClickEntity": [
 		"Kristen"
 	],
