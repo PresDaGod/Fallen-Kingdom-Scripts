@@ -14,7 +14,11 @@
 		"name": "&b&lWillie Jr"
 	},
 
-	"NotCompleted": [],
+	"NotCompleted": [
+		"helping_children",
+		"&cYou have already helped &b&lWillie B&c."
+	],
+
 
 	"HighlightClickEntity": [
 		"Willie Jr"
