@@ -18,9 +18,25 @@
 		"location": [2039.5, 22, 574.5, 90],
 		"name": "&3&lKristen"
 	},
+
+  "Skip": "HighlightClickEntity",
+  "Comment": "Startloop",
+  "Dialog" [{
+    "Kristen": "Your Mine isn't level 3 just yet, come back once it is."
+    }],
+
 	"HighlightClickEntity": [
 		"Kristen"
 	],
+
+  "IF": [],
+  "HasKingdomBuilding": [
+    "mine",
+    3
+  ],
+  "Skip": "Dialog",
+  "Skip": "Startloop",
+
 	"Dialog": [{
 		"Kristen": "Hello there! You must be the one Sofia has talked so much about",
 		"Kristen": "Would you be able to help us again?"
