@@ -1,0 +1,79 @@
+{
+	"ServerType": "hub",
+	"Key": "helping_children",
+	"Name": "Helping_Children",
+	"Description": "Help the children collect their items",
+	"Location": "Hub",
+	"Quest": true,
+	"AllowRejoining": true,
+
+	"CreateEntity": {
+		"key": "Sofia",
+		"entity": "villager",
+		"baby": true,
+		"location": [2033.5, 22.0, 582.5, 90],
+		"name": "&b&lSofia"
+	},
+
+	"HighlightClickEntity": [
+		"Sofia"
+	],
+
+	"Dialog": [{
+		"Sofia": "Excuse me, I need your help with something.",
+		"Sofia": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
+	}],
+	"Skip": "HighlightClickEntity",
+	"Comment": "loop",
+	"Dialog": [{
+		"Sofia": "You dont have enough &6Rotten Flesh&f come back when you have enough."
+	}],
+	"HighlightClickEntity": [
+		"Sofia"
+	],
+	"Comment": "If",
+	"If": [],
+	"HasItem": [{
+		"material": "Rotten Flesh",
+		"amount": "64"
+	}],
+	"Skip": "TakeItem",
+	"Skip": "loop",
+
+	"TakeItem": [{
+		"material": "Rotten Flesh",
+		"amount": "64"
+		}],
+
+	"Dialog": [{
+		"Sofia": "Thank you so much!",
+		"Sofia": "Could you also get me &664 Bones&f?"
+	}],
+
+	"Skip": "HighlightClickEntity",
+	"Comment": "loop2",
+	"Dialog": [{
+		"Sofia": "You dont have enough &6Bones &fcome back when you have enough."
+	}],
+	"HighlightClickEntity": [
+		"Sofia"
+	],
+	"Comment":"If2",
+	"If": [],
+	"HasItem": [{
+		"material": "Bone",
+		"amount": "64"
+	}],
+	"Skip": "TakeItem",
+	"Skip": "loop2",
+
+	"TakeItem": [{
+		"material": "Bone",
+		"amount": "64"
+	}],
+	"Dialog": [{
+		"Sofia": "Oh my, Thank you again!",
+		"Sofia": "I will tell my Mom and Dad about you, they are always looking for people to help out!"
+	}],
+	"Complete": []
+}
