@@ -15,9 +15,6 @@
 		"location": [2041.5, 22, 572.5, 90],
 		"name": "&d&lWillie B"
 	},
-	"ClickEntity": [
-		"Willie"
-	],
 
 	"Completed": [
 		"helping_parents",
@@ -44,7 +41,7 @@
 		"Willie": "I Really appreciate what you have done for them.",
 		"Willie": "If there is one more thing I can ask of you...",
 		"Willie": "On my way back home today I meant to go into the mines to get a few more things.",
-		"Willie": "You see.. I am finally going to propose to my wife Kristen, however I dont have the diamonds for the ring.",
+		"Willie": "You see.. I am finally going to propose to Kristen, however I dont have the diamonds for the ring.",
 		"Willie": "I want to give her the biggest diamong ring you have ever seen.",
 		"Willie": "Could you please get me &648 Diamonds&f?"
 	}],
