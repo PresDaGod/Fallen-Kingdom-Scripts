@@ -8,10 +8,18 @@
 	"Quest": true,
 	"AllowRejoining": true,
 
+
+
+  "Comment": "Start",
+
+  "If": [],
 	"HasKingdomBuilding": [
 		"mine",
 		3
 	],
+  "Skip": "CreateEntity",
+  "Skip": "Start",
+
 	"CreateEntity": {
 		"key": "Kristen",
 		"skin": {
