@@ -1,8 +1,8 @@
 {
 	"ServerType": "hub",
-	"Key": "helping_parents",
-	"Name": "&b&lHelping Parents",
-	"Description": "Sofia's Parents are in dire need to assistance.",
+	"Key": "helping_mother",
+	"Name": "&b&lHelping Mother",
+	"Description": "Willie Jr's Parents are in dire need to assistance.",
 	"Author": "PresDaGod",
 	"Quest": true,
 	"AllowRejoining": true,
@@ -39,7 +39,7 @@
 	"SendMessage": "&cYou need Mines Lvl. III to start this quest.",
 	"Leave": [],
 	"Dialog": [{
-		"Kristen": "Hello there! You must be the one Willie B has talked so much about",
+		"Kristen": "Hello there! You must be the one Willie Jr has talked so much about",
 		"Kristen": "Would you be able to help us again?"
 	}],
 
