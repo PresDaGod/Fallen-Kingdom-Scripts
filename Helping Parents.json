@@ -5,7 +5,7 @@
 	"Description": "Sofia's Parents are in dire need to assistance.",
 	"Location": "Hub",
 	"Author": "PresDaGod",
-	"Quest": false,
+	"Quest": true,
 	"AllowRejoining": true,
 
 	"HasKingdomBuilding": [
