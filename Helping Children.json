@@ -81,5 +81,10 @@
 	}],
 
 	"Hide": "Willie Jr",
+
+	"Start": [
+		10,
+		"helping_mother"
+	],
 	"Complete": []
 }
