@@ -19,23 +19,23 @@
 		"name": "&3&lKristen"
 	},
 
-  "Skip": "HighlightClickEntity",
-  "Comment": "Startloop",
-  "Dialog" [{
-    "Kristen": "Your Mine isn't level 3 just yet, come back once it is."
-    }],
+	"Skip": "HighlightClickEntity",
+	"Comment": "Startloop",
+	"Dialog": [{
+		"Kristen": "Your Mine isn't level 3 just yet, come back once it is."
+	}],
 
 	"HighlightClickEntity": [
 		"Kristen"
 	],
 
-  "IF": [],
-  "HasKingdomBuilding": [
-    "mine",
-    3
-  ],
-  "Skip": "Dialog",
-  "Skip": "Startloop",
+	"IF": [],
+	"HasKingdomBuilding": [
+		"mine",
+		3
+	],
+	"Skip": "Dialog",
+	"Skip": "Startloop",
 
 	"Dialog": [{
 		"Kristen": "Hello there! You must be the one Sofia has talked so much about",
