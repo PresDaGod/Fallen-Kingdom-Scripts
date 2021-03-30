@@ -7,7 +7,7 @@
 	"AllowRejoining": true,
 
 	"CreateEntity": {
-		"key": "Sofia",
+		"key": "Willie Jr",
 		"entity": "villager",
 		"baby": true,
 		"location": [2033.5, 22.0, 582.5, 90],
@@ -15,20 +15,20 @@
 	},
 
 	"HighlightClickEntity": [
-		"Sofia"
+		"Willie Jr"
 	],
 
 	"Dialog": [{
-		"Sofia": "Excuse me, I need your help with something.",
-		"Sofia": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
+		"Willie Jr": "Excuse me, I need your help with something.",
+		"Willie Jr": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
 	}],
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
 	"Dialog": [{
-		"Sofia": "You dont have enough &6Rotten Flesh&f come back when you have enough."
+		"Willie Jr": "You dont have enough &6Rotten Flesh&f come back when you have enough."
 	}],
 	"HighlightClickEntity": [
-		"Sofia"
+		"Willie Jr"
 	],
 	"Comment": "If",
 	"If": [],
@@ -45,17 +45,17 @@
 		}],
 
 	"Dialog": [{
-		"Sofia": "Thank you so much!",
-		"Sofia": "Could you also get me &664 Bones&f?"
+		"Willie Jr": "Thank you so much!",
+		"Willie Jr": "Could you also get me &664 Bones&f?"
 	}],
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop2",
 	"Dialog": [{
-		"Sofia": "You dont have enough &6Bones &fcome back when you have enough."
+		"Willie Jr": "You dont have enough &6Bones &fcome back when you have enough."
 	}],
 	"HighlightClickEntity": [
-		"Sofia"
+		"Willie Jr"
 	],
 	"Comment":"If2",
 	"If": [],
@@ -71,8 +71,8 @@
 		"amount": "64"
 	}],
 	"Dialog": [{
-		"Sofia": "Oh my, Thank you again!",
-		"Sofia": "I will tell my Mom and Dad about you, they are always looking for people to help out!"
+		"Willie Jr": "Oh my, Thank you again!",
+		"Willie Jr": "I will tell my Mom and Dad about you, they are always looking for people to help out!"
 	}],
 	"Complete": []
 }
