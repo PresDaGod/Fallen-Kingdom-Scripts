@@ -26,10 +26,14 @@
 	"HighlightClickEntity": [
 		"Kristen"
 	],
-	"HasKingdomBuilding": [
-		"mine",
-		3
-	],
+  "If": [],
+    "HasKingdomBuilding": [
+        "mine",
+        3
+    ],
+    "Skip": "Dialog",
+    "Leave": [],
+    
 	"Dialog": [{
 		"Kristen": "Hello there! You must be the one Sofia has talked so much about",
 		"Kristen": "Would you be able to help us again?"
