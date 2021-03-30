@@ -19,9 +19,9 @@
 			"yaw": 90.0,
 			"pitch": 0.0
 		},
-		"name": "&3&lKristen"
+		"name": "&3&lKristen",
+    "visible": false
 	},
-  "Hide": "Kristen",
 
   "Show": "Kristen",
 
