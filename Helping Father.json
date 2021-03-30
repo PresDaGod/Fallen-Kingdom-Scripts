@@ -1,34 +1,76 @@
 {
-  "ServerType": "hub",
-  "Key": "helping_father",
-  "Name": "&b&lHelping Father",
-  "Description": "Help Willie Jr's father complete various tasks",
-  "Quest": false,
-  "AllowRejoining": true,
+	"ServerType": "hub",
+	"Key": "helping_father",
+	"Name": "&b&lHelping Father",
+	"Description": "Help Willie Jr's father complete various tasks",
+	"Quest": false,
+	"AllowRejoining": true,
 
-  "CreateEntity": {
-    "key": "Willie",
-    "skin": {
-      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMjg4ODM1NTAwNSwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmYjBjZTJlOTc4NWM5MGViMTk4NTUxYzI2YTBiNDk2OWVmNjU3ZDE3Y2M4NDY2MTYxNmZiYzkwZDRmZjA4YSIKICAgIH0KICB9Cn0=",
-      "signature": "kuU5YYMwepxdjGl1rifgM+Lywct97VZqEcOyZte8v9nKr/rH8Y+BTpfh47Z/mEOlhOmC/GZ/aTnJcg3IjrSz9y7hWXg6F/OagXYImUeNTdK/yX3dENQxj6U6Spb3ib+TbdRzUlAkhRnmZNCocwbAoQItRSjt7bqZxB11KtB4wSeiRBy8GE2amCHaVR3bmerSlsg+PtGLVNWGZArGjmSpSPpyq671FZVUaXtPkv+FiLF+tHdeBK91allFrIa19qMKJ0kxU1hFq0OovO8uSFv+efBkKNoQRwJAfZs/EQCgOvQ/EWC95Xjm11UKRDGLabffmu/C+Du3kIg/0GcxBQPOxejMbjnrtFcNmYJDa7yZEdW7PLaUgiobetlQK3XVXYnCYKX7qE1zh554PemDyyDlpb/ngDZfywtpMnv4Eekv6U+sM52i4COdqMGy8ldCH7Lx3eEPKnTA/VlnQOnaePDdQkl6VptN7ywsXwpIio5Rfbm0w413HxTAGppvD5FfxSiPhAirpR7swmy7dqZoBLZhYBB3wpYJ98sJej8oRDa1GHR6RELwvdSkTBvoeHpunnSVWXN6v1ZDHwBcZDMzGWThcv4DjivYwTlf5FiC1gSSpKvPz1CLhpDMlvE3sI9O2bqZI/mGMUvFivb3koCS0v0v4spyALJ0lyqAijSRJzhEo2I="
-    },
-    "location": [2041.5, 22, 572.5, 90],
-    "name": "&d&lWillie B"
-  },
-    "ClickEntity": [
-      "Willie"
-    ],
-    
-    "Completed": [
-      "helping_parents",
-      "&cYou need to speak to &b&lWillie Jr &c and &3&lKristen &cfirst."
-    ],
+	"CreateEntity": {
+		"key": "Willie",
+		"skin": {
+			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMjg4ODM1NTAwNSwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmYjBjZTJlOTc4NWM5MGViMTk4NTUxYzI2YTBiNDk2OWVmNjU3ZDE3Y2M4NDY2MTYxNmZiYzkwZDRmZjA4YSIKICAgIH0KICB9Cn0=",
+			"signature": "kuU5YYMwepxdjGl1rifgM+Lywct97VZqEcOyZte8v9nKr/rH8Y+BTpfh47Z/mEOlhOmC/GZ/aTnJcg3IjrSz9y7hWXg6F/OagXYImUeNTdK/yX3dENQxj6U6Spb3ib+TbdRzUlAkhRnmZNCocwbAoQItRSjt7bqZxB11KtB4wSeiRBy8GE2amCHaVR3bmerSlsg+PtGLVNWGZArGjmSpSPpyq671FZVUaXtPkv+FiLF+tHdeBK91allFrIa19qMKJ0kxU1hFq0OovO8uSFv+efBkKNoQRwJAfZs/EQCgOvQ/EWC95Xjm11UKRDGLabffmu/C+Du3kIg/0GcxBQPOxejMbjnrtFcNmYJDa7yZEdW7PLaUgiobetlQK3XVXYnCYKX7qE1zh554PemDyyDlpb/ngDZfywtpMnv4Eekv6U+sM52i4COdqMGy8ldCH7Lx3eEPKnTA/VlnQOnaePDdQkl6VptN7ywsXwpIio5Rfbm0w413HxTAGppvD5FfxSiPhAirpR7swmy7dqZoBLZhYBB3wpYJ98sJej8oRDa1GHR6RELwvdSkTBvoeHpunnSVWXN6v1ZDHwBcZDMzGWThcv4DjivYwTlf5FiC1gSSpKvPz1CLhpDMlvE3sI9O2bqZI/mGMUvFivb3koCS0v0v4spyALJ0lyqAijSRJzhEo2I="
+		},
+		"location": [2041.5, 22, 572.5, 90],
+		"name": "&d&lWillie B"
+	},
+	"ClickEntity": [
+		"Willie"
+	],
 
-    "HighlightClickEntity": [
-      "Willie"
-    ],
+	"Completed": [
+		"helping_parents",
+		"&cYou need to speak to &b&lWillie Jr &cand &3&lKristen &cfirst."
+	],
 
-    "Dialog": [{
-      "Willie": "So you are the one that I've heard so much about"
-      }]
+
+	"HighlightClickEntity": [
+		"Willie"
+	],
+
+	"If": [],
+	"HasKingdomBuilding": [
+		"mine",
+		4
+	],
+	"Skip": "Dialog",
+	"SendMessage": "&cYou need Mines Lvl. IV to start this quest.",
+	"Leave": [],
+
+	"Dialog": [{
+		"Willie": "So you are the one that I've heard so much about.",
+		"Willie": "I spent most of my time delivering the king's quests to people, I hardly have time to help my own family.",
+		"Willie": "I Really appreciate what you have done for them.",
+		"Willie": "If there is one more thing I can ask of you...",
+		"Willie": "On my way back home today I meant to go into the mines to get a few more things.",
+		"Willie": "You see.. I am finally going to propose to my wife Kristen, however I dont have the diamonds for the ring.",
+		"Willie": "I want to give her the biggest diamong ring you have ever seen.",
+		"Willie": "Could you please get me &648 Diamonds&f?"
+	}],
+
+	"Skip": "HighlightClickEntity",
+	"Comment": "loop",
+	"Dialog": [{
+		"Willie": "You need more &6Diamonds &fto make it the biggest ring ever."
+	}],
+
+	"HighlightClickEntity": [
+		"Willie"
+	],
+
+	"If": [],
+	"HasItem": [{
+		"material": "Diamond",
+		"amount": "48"
+	}],
+	"Skip": "TakeItem",
+	"Skip": "loop",
+
+	"TakeItem": [{
+		"material": "Diamond",
+		"amount": "48"
+	}]
+
+
 }
