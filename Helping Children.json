@@ -20,7 +20,7 @@
 
 	"NotCompleted": [
 		"helping_children",
-		"&cYou have already helped &b&lWillie B&c."
+		"&cYou have already helped &b&lWillie Jr&c."
 	],
 
 	"Dialog": [{
@@ -79,5 +79,7 @@
 		"Willie Jr": "Oh my, Thank you again!",
 		"Willie Jr": "I will tell my Mom and Dad about you, they are always looking for people to help out!"
 	}],
+
+	"Hide": "Willie Jr",
 	"Complete": []
 }
