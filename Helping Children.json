@@ -77,7 +77,8 @@
 	}],
 	"Dialog": [{
 		"Willie Jr": "Oh my, Thank you again!",
-		"Willie Jr": "I will tell my Mom and Dad about you, they are always looking for people to help out!"
+		"Willie Jr": "I will tell my Mom and Dad about you, they are always looking for people to help out!",
+		"Willie Jr": "Oh I almost forgot, heres a reward for you."
 	}],
 
 	"Hide": "Willie Jr",
@@ -85,5 +86,10 @@
 	"Start": [
 		"helping_mother"
 	],
+
+	"Start": [
+		"helping_children_reward"
+	],
+
 	"Complete": []
 }
