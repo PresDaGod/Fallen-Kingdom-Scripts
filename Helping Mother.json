@@ -21,6 +21,15 @@
 		},
 		"name": "&3&lKristen"
 	},
+  "Show": {
+    "Kristen": false
+  },
+  "Hold": [],
+
+  "Show": {
+    "Kristen": true
+  },
+  
 	"HighlightClickEntity": [
 		"Kristen"
 	],
