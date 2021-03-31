@@ -27,10 +27,10 @@
 		"Kristen"
 	],
 
-  "Completed": [
-    "helping_children",
-    "&cYou need to speak to &b&lWillie Jr &cfirst."
-  ],
+	"Completed": [
+		"helping_children",
+		"&cYou need to speak to &b&lWillie Jr &cfirst."
+	],
 
 	"If": [],
 	"HasKingdomBuilding": [
@@ -133,7 +133,6 @@
 		"Kristen": "Thank you so very much, you have no idea how much this means to us",
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
-  "Hide": "Kristen",
-	
+	"Hide": "Kristen",
 	"Complete": []
 }
