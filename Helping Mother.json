@@ -134,8 +134,6 @@
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
   "Hide": "Kristen",
-  "Start": [
-    "helping_father"
-  ],
+	
 	"Complete": []
 }
