@@ -1,8 +1,8 @@
 {
 	"ServerType": "hub",
 	"Key": "helping_mother",
-	"Name": "&b&lHelping Mother",
-	"Description": "Willie Jr's Parents are in dire need to assistance.",
+	"Name": "&3&lHelping Kristen",
+	"Description": "Willie Jr's mother is in dire need to assistance.",
 	"Author": "PresDaGod",
 	"Quest": true,
 	"Icon": {
@@ -141,5 +141,5 @@
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
 	"Hide": "Kristen",
-	"Complete": []
+	"CompleteKingdomQuest": []
 }
