@@ -1,0 +1,9 @@
+{
+  "ServerType": "hub",
+	"Key": "helping_children_reward",
+	"Name": "Helping_Children_Reward",
+
+  "Hold": [],
+
+  "GiveKingdomGold": [10000],
+}
