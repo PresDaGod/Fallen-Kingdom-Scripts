@@ -2,7 +2,7 @@
 	"ServerType": "hub",
 	"Key": "helping_children",
 	"Name": "&b&lHelping Willie Jr",
-	"Description": "Help the Willie Jr collect items for his parents.",
+	"Description": "Help Willie Jr collect items for his parents.",
 	"Quest": true,
 	"Icon": {
 		"material": "Player Head",
@@ -97,5 +97,5 @@
 		"helping_children_reward"
 	],
 
-	"Complete": []
+	"CompleteKingdomQuest": []
 }
