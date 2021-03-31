@@ -6,6 +6,7 @@
 	"Author": "PresDaGod",
 	"Quest": true,
 	"AllowRejoining": true,
+  "Hold": [],
 	"CreateEntity": {
 		"key": "Kristen",
 		"skin": {
@@ -21,15 +22,8 @@
 		},
 		"name": "&3&lKristen"
 	},
-  "Show": {
-    "Kristen": false
-  },
-  "Hold": [],
 
-  "Show": {
-    "Kristen": true
-  },
-  
+
 	"HighlightClickEntity": [
 		"Kristen"
 	],
