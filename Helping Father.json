@@ -15,7 +15,7 @@
 		"location": [2041.5, 22, 572.5, 90],
 		"name": "&d&lWillie B"
 	},
-  "HighlightClickEntity": [
+	"HighlightClickEntity": [
 		"Willie"
 	],
 
@@ -57,32 +57,31 @@
 	}],
 
 	"Wait": 40,
-	""
 
 	"Dialog": [{
-		"Willie": "Thank you so very much! You have no idea how much this means."
+		"Willie": "Thank you so very much! You have no idea how much this means.",
 		"Willie": "It appears the bandit also got to our gold stash.. Would you also be able to get us &696 Gold Ingots&f?"
-		}],
+	}],
 
-		"Skip": "HighlightClickEntity",
-		"Comment": "loop2",
-		"SendMessage": "&cYou do not have enough &6Gold Ingots &cat this time.",
+	"Skip": "HighlightClickEntity",
+	"Comment": "loop2",
+	"SendMessage": "&cYou do not have enough &6Gold Ingots &cat this time.",
 
-		"HighlightClickEntity": [
-			"Willie"
-		],
+	"HighlightClickEntity": [
+		"Willie"
+	],
 
-		"If": [],
-		"HasItem": [{
-			"material": "Gold Ingot",,
-			"amount": "96"
-		}],
-		"Skip": "TakeItem",
-		"Skip": "loop2",
+	"If": [],
+	"HasItem": [{
+		"material": "Gold Ingot",
+		"amount": "96"
+	}],
+	"Skip": "TakeItem",
+	"Skip": "loop2",
 
-		"TakeItem": [{
-			"material": "Gold Ingot",
-			"amount": "96"
-		}],
+	"TakeItem": [{
+		"material": "Gold Ingot",
+		"amount": "96"
+	}]
 
 }
