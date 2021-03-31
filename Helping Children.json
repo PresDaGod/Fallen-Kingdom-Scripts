@@ -82,8 +82,7 @@
 
 	"Hide": "Willie Jr",
 
-	"Start": [
-		10,
+	"Progress": [
 		"helping_mother"
 	],
 	"Complete": []
