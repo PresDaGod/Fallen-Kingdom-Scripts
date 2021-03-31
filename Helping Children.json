@@ -3,8 +3,14 @@
 	"Key": "helping_children",
 	"Name": "Helping_Children",
 	"Description": "Help the children collect their items",
-	"Quest": false,
+	"Quest": true,
+	"Icon": {
+		"material": "Player Head",
+		"skin": "Villager"
+	},
+
 	"AllowRejoining": true,
+	"HasKingdom": [],
 
 	"CreateEntity": {
 		"key": "Willie Jr",
