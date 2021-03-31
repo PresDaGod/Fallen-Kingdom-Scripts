@@ -6,7 +6,6 @@
 	"Author": "PresDaGod",
 	"Quest": false,
 	"AllowRejoining": true,
-  "Hold": [],
 	"CreateEntity": {
 		"key": "Kristen",
 		"skin": {
