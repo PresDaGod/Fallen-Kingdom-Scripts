@@ -82,6 +82,37 @@
 	"TakeItem": [{
 		"material": "Gold Ingot",
 		"amount": "96"
-	}]
+	}],
+
+	"Dialog": [{
+		"Willie": "Amazing! Now I can afford to reward everyone that does my quests.",
+		"Willie": "Just one more thing, we need about &6256 Rabbit Hide &fin order to make armor. If you could please fetch that for me."
+		}],
+
+		"Skip": "HighlightClickEntity",
+		"Comment": "loop3",
+		"SendMessage": "&cYou do not have enough &6Rabbit Hide &cat this time.",
+
+		"HighlightClickEntity": [
+			"Willie"
+		],
+
+		"If": [],
+		"HasItem": [{
+			"material": "Rabbit Hide",
+			"amount": "256"
+		}],
+		"Skip": "TakeItem",
+		"Skip": "loop3",
+
+		"TakeItem": [{
+			"material": "Rabbit Hide",
+			"amount": "256"
+		}],
+
+		"Dialog": [{
+			"Willie": "This will do nicely.",
+			"Willie": "I thank you for all that you have done for my family."
+			}]
 
 }
