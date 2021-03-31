@@ -23,28 +23,21 @@
 	"If": [],
 	"HasKingdomBuilding": [
 		"mine",
-		3
+		4
 	],
 	"Skip": "Dialog",
 	"SendMessage": "&cYou need Mines Lvl. IV to start this quest.",
 	"Leave": [],
 
 	"Dialog": [{
-		"Willie": "So you are the one that I've heard so much about.",
-		"Willie": "I spent most of my time delivering the king's quests to people, I hardly have time to help my own family.",
-		"Willie": "I Really appreciate what you have done for them.",
-		"Willie": "If there is one more thing I can ask of you...",
-		"Willie": "On my way back home today I meant to go into the mines to get a few more things.",
-		"Willie": "You see.. I am finally going to propose to Kristen, however I dont have the diamonds for the ring.",
-		"Willie": "I want to give her the biggest diamong ring you have ever seen.",
-		"Willie": "Could you please get me &648 Diamonds&f?"
+		"Willie": "Thank goodness you're here.",
+		"Willie": "We had a bandit come and steal some of our diamonds.",
+		"Willie": "I would be very grateful if you were able to go to the mines and bring us &648 Diamonds&f."
 	}],
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
-	"Dialog": [{
-		"Willie": "You need more &6Diamonds &fto make it the biggest ring ever."
-	}],
+	"SendMessage": "&cYou don't have enough &6Diamonds &cyet",
 
 	"HighlightClickEntity": [
 		"Willie"
@@ -61,7 +54,35 @@
 	"TakeItem": [{
 		"material": "Diamond",
 		"amount": "48"
-	}]
+	}],
 
+	"Wait": 40,
+	""
+
+	"Dialog": [{
+		"Willie": "Thank you so very much! You have no idea how much this means."
+		"Willie": "It appears the bandit also got to our gold stash.. Would you also be able to get us &696 Gold Ingots&f?"
+		}],
+
+		"Skip": "HighlightClickEntity",
+		"Comment": "loop2",
+		"SendMessage": "&cYou do not have enough &6Gold Ingots &cat this time.",
+
+		"HighlightClickEntity": [
+			"Willie"
+		],
+
+		"If": [],
+		"HasItem": [{
+			"material": "Gold Ingot",,
+			"amount": "96"
+		}],
+		"Skip": "TakeItem",
+		"Skip": "loop2",
+
+		"TakeItem": [{
+			"material": "Gold Ingot",
+			"amount": "96"
+		}],
 
 }
