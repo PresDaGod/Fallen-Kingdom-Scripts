@@ -27,7 +27,7 @@
 	"If": [],
 	"HasKingdomBuilding": [
 		"mine",
-		4
+		3
 	],
 	"Skip": "Dialog",
 	"SendMessage": "&cYou need Mines Lvl. IV to start this quest.",
