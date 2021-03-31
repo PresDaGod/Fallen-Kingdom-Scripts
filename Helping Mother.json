@@ -21,16 +21,14 @@
 		},
 		"name": "&3&lKristen"
 	},
-
-  "Hide": "Kristen",
-
-  "Hold":[],
-
-  "Show": "Kristen",
-
 	"HighlightClickEntity": [
 		"Kristen"
 	],
+  "Hide": "Kristen",
+
+  "Hold": [],
+
+  "Show": "Kristen",
 
   "Completed": [
     "helping_children",
