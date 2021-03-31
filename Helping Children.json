@@ -91,12 +91,12 @@
 	"Hide": "Willie Jr",
 
 	"Start": [
-		"helping_mother"
-	],
-
-	"Start": [
 		"helping_children_reward"
 	],
 
-	"Complete": []
+	"CompleteKingdomQuest": [],
+
+	"Start": [
+		"helping_mother"
+	]
 }
