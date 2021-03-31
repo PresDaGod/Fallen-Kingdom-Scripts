@@ -8,6 +8,7 @@
 		"material": "Player Head",
 		"skin": "Villager"
 	},
+	"ShowReward": "4,000 Gold",
 
 	"AllowRejoining": true,
 	"HasKingdom": [],
