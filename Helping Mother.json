@@ -4,7 +4,7 @@
 	"Name": "&b&lHelping Mother",
 	"Description": "Willie Jr's Parents are in dire need to assistance.",
 	"Author": "PresDaGod",
-	"Quest": true,
+	"Quest": false,
 	"AllowRejoining": true,
   "Hold": [],
 	"CreateEntity": {
@@ -135,5 +135,8 @@
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
   "Hide": "Kristen",
+  "Start": {
+    "helping_father"
+  },
 	"Complete": []
 }
