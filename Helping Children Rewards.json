@@ -1,9 +1,9 @@
 {
-  "ServerType": "hub",
+	"ServerType": "hub",
 	"Key": "helping_children_reward",
 	"Name": "Helping_Children_Reward",
 
-  "GiveKingdomGold": [10000],
+	"GiveKingdomGold": [10000],
 
-  "CompleteKingdomQuest": []
+	"CompleteKingdomQuest": []
 }
