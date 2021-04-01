@@ -8,7 +8,7 @@
 		"material": "Player Head",
 		"skin": "Villager"
 	},
-	"ShowReward": "4,000 Gold",
+	"ShowReward": "&64,000 Gold",
 	"HideReward": "Willie Jr's Token",
 
 	"AllowRejoining": true,
