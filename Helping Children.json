@@ -108,8 +108,10 @@
 		"description": "Present this token to Kristen to start the next quest",
 		"glow": true
 	},
+
+	"SendMessage": "&6Recieved> &b&lWillie Jr's Token",
 	"Wait": 40,
-	
+
 	"Dialog": [{
 		"Willie Jr": "Oh I almost forgot, heres a reward for you."
 		}],
