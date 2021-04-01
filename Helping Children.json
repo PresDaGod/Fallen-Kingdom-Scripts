@@ -107,9 +107,6 @@
 		"helping_children_reward"
 	],
 
-	"CompleteKingdomQuest": [],
+	"CompleteKingdomQuest": []
 
-	"Start": [
-		"helping_mother"
-	]
 }
