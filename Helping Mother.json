@@ -34,10 +34,19 @@
 		"Kristen"
 	],
 
-	"Completed": [
-		"helping_children",
-		"&cYou need to speak to &b&lWillie Jr &cfirst."
+	"If": [],
+	"HasItem": [
+		{
+			"material": "Gold Nugget",
+			"name": "Willie Jr's token",
+			"description": "Present this token to Kristen to start the next quest",
+			"glow": true
+		},
+		1
 	],
+	"Skip": "If",
+	"Sendmessage": "You dont have Willie Jr's Token",
+	"Leave": [],
 
 	"If": [],
 	"HasKingdomBuilding": [
@@ -141,5 +150,5 @@
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
 	"Hide": "Kristen",
-	"CompleteKingdomQuest": []
+	"Complete": []
 }
