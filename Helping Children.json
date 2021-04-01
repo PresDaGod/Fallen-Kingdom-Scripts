@@ -9,6 +9,7 @@
 		"skin": "Villager"
 	},
 	"ShowReward": "4,000 Gold",
+	"HideReward": "Willie Jr's Token",
 
 	"AllowRejoining": true,
 	"HasKingdom": [],
@@ -91,7 +92,7 @@
 	"GiveItem":{
 		"material": "Gold Nugget",
 		"amount": 1,
-		"name": "Willie Jr's token",
+		"name": "&b&lWillie Jr's Token",
 		"description": "Present this token to Kristen to start the next quest",
 		"glow": true
 	},
