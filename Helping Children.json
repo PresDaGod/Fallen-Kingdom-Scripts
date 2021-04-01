@@ -42,9 +42,8 @@
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
-	"Dialog": [{
-		"Willie Jr": "You dont have enough &6Rotten Flesh&f come back when you have enough."
-	}],
+	"SendMessage": "&cYou dont have enough &6Rotten Flesh &cto return to Willie Jr.",
+
 	"HighlightClickEntity": [
 		"Willie Jr"
 	],
@@ -73,9 +72,8 @@
 	}],
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop2",
-	"Dialog": [{
-		"Willie Jr": "You dont have enough &6Bones &fcome back when you have enough."
-	}],
+	"SendMessage": "&cYou dont have enough &6Bones &cto return to Willie Jr.",
+	
 	"HighlightClickEntity": [
 		"Willie Jr"
 	],
