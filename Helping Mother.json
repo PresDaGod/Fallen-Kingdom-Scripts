@@ -38,7 +38,7 @@
 	"HasItem": [
 		{
 			"material": "Gold Nugget",
-			"name": "Willie Jr's token",
+			"name": "&b&lWillie Jr's Token",
 			"description": "Present this token to Kristen to start the next quest",
 			"glow": true
 		},
