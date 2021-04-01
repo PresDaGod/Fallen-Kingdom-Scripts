@@ -32,9 +32,14 @@
 	],
 
 	"Dialog": [{
-		"Willie Jr": "Excuse me, I need your help with something.",
-		"Willie Jr": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
+		"Willie Jr": "Excuse me, I need your help with something."
 	}],
+
+	"Wait": 40,
+	"Dialog": [{
+			"Willie Jr": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
+		}],
+
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
 	"Dialog": [{
@@ -59,10 +64,13 @@
 
 
 	"Dialog": [{
-		"Willie Jr": "Thank you so much!",
+		"Willie Jr": "Thank you so much!"
+	}],
+	"Wait": 40,
+
+	"Dialog": [{
 		"Willie Jr": "Could you also get me &664 Bones&f?"
 	}],
-
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop2",
 	"Dialog": [{
@@ -85,7 +93,11 @@
 		"amount": "64"
 	}],
 	"Dialog": [{
-		"Willie Jr": "Oh my, Thank you again!",
+		"Willie Jr": "Oh my, Thank you again!"
+	}],
+	"Wait": 30,
+
+	"Dialog": [{
 		"Willie Jr": "My mom is always looking for people to help out, here is a token for you to show her that you helped us"
 	}],
 
@@ -96,12 +108,11 @@
 		"description": "Present this token to Kristen to start the next quest",
 		"glow": true
 	},
-
+	"Wait": 40,
+	
 	"Dialog": [{
 		"Willie Jr": "Oh I almost forgot, heres a reward for you."
 		}],
-
-	"Hide": "Willie Jr",
 
 	"Start": [
 		"helping_children_reward"
