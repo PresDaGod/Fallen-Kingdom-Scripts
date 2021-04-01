@@ -56,6 +56,7 @@
 		"amount": "64"
 		}],
 
+
 	"Dialog": [{
 		"Willie Jr": "Thank you so much!",
 		"Willie Jr": "Could you also get me &664 Bones&f?"
@@ -84,9 +85,20 @@
 	}],
 	"Dialog": [{
 		"Willie Jr": "Oh my, Thank you again!",
-		"Willie Jr": "I will tell my Mom and Dad about you, they are always looking for people to help out!",
-		"Willie Jr": "Oh I almost forgot, heres a reward for you."
+		"Willie Jr": "My mom is always looking for people to help out, here is a token for you to show her that you helped us"
 	}],
+
+	"GiveItem":{
+		"material": "Gold Nugget",
+		"amount": 1,
+		"name": "Willie Jr's token",
+		"description": "Present this token to Kristen to start the next quest",
+		"glow": true
+	},
+
+	"Dialog": [{
+		"Willie Jr": "Oh I almost forgot, heres a reward for you."
+		}],
 
 	"Hide": "Willie Jr",
 
