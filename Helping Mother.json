@@ -45,7 +45,7 @@
 		1
 	],
 	"Skip": "If",
-	"Sendmessage": "You dont have Willie Jr's Token",
+	"SendMessage": "&cYou dont have Willie Jr's Token",
 	"Leave": [],
 
 	"If": [],
