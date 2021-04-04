@@ -45,7 +45,7 @@
 		1
 	],
 	"Skip": "If",
-	"SendMessage": "&cYou dont have Willie Jr's Token",
+	"SendMessage": "&cYou dont have Willie Jr's Token&c.",
 	"Leave": [],
 
 	"If": [],
@@ -56,8 +56,14 @@
 	"Skip": "Dialog",
 	"SendMessage": "&cYou need Mines Lvl. III to start this quest.",
 	"Leave": [],
+
 	"Dialog": [{
-		"Kristen": "Hello there! You must be the one Willie Jr has talked so much about",
+		"Kristen": "Hello there! You must be the one Willie Jr has talked so much about"
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
 		"Kristen": "Would you be able to help us again?"
 	}],
 
@@ -68,9 +74,7 @@
 	}],
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
-	"Dialog": [{
-		"Kristen": "You dont seem to have enough &6Spider Eyes &fat the moment"
-	}],
+	"SendMessage": "&cYou dont have enough &6Spider Eyes &cto return to Kristen.",
 
 	"HighlightClickEntity": [
 		"Kristen"
@@ -89,16 +93,16 @@
 		"amount": "96"
 	}],
 
+	"SendMessage": "&1Removed>&796 Spider Eyes",
+
 	"Dialog": [{
-		"Kristen": "This is amazing! Now we can heal our existing troops!",
+		"Kristen": "This is perfect! Now we can heal our existing troops!",
 		"Kristen": "Next, Could you please bring me &6128 Venomous Extract &f?"
 	}],
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop2",
-	"Dialog": [{
-		"Kristen": "You need to get some more &6Venomous Extract &fbefore you return."
-	}],
+	"SendMessage": "&cYou dont have enough &6Venomous Extract &cto return to Kristen",
 
 	"HighlightClickEntity": [
 		"Kristen"
@@ -119,7 +123,12 @@
 
 	"Dialog": [{
 		"Kristen": "Ah beautiful!",
-		"Kristen": "Just one more thing.. We have run out of Iron for our tools",
+		"Kristen": "Just one more thing.. We have run out of Iron for our tools"
+	}],
+
+	"Wait": 25,
+
+	"Dialog": [{
 		"Kristen": "Can you bring us &664 Iron Ingots &f?"
 	}],
 
@@ -146,7 +155,12 @@
 	}],
 
 	"Dialog": [{
-		"Kristen": "Thank you so very much, you have no idea how much this means to us",
+		"Kristen": "Thank you so very much, you have no idea how much this means to us"
+	}],
+
+"Wait": 35,
+
+	"Dialog": [{
 		"Kristen": "Willie B will be home soon, he may have a job for you then."
 	}],
 	"Hide": "Kristen",
