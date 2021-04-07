@@ -18,6 +18,12 @@
 		"location": [1971.5, 62, 683.5, 90],
 		"name": "&3&lTiny Tim"
 	},
+
+	"NotCompleted": [
+		"village_warrior",
+		"&cYou are already a warrior of Fallen Kingdom."
+	],
+	
 	"HighlightClickEntity": [
 		"tim"
 	],
@@ -59,7 +65,7 @@
 	"Start": ["warrior_kill_quest"],
 
 	"Dialog": [{
-		"tim": "The King thanks you for your generosity to the crown"
+		"tim": "The King thanks you for your service to defending the crown"
 	}],
 
 	"Wait": 40,
