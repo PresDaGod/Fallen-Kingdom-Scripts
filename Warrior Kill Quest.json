@@ -5,7 +5,6 @@
   "Description": "Kill quest for the Warrior Quest",
   "Author": "PresDaGod",
   "AllowRejoining": true,
-  "Quest": false,
 
   "Hold": [],
 
