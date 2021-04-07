@@ -41,7 +41,7 @@
 	"Dialog": [{
 		"tim": "A shame... We really could have used someone like you"
 	}],
-	"leave": [],
+	"leave": "village_warrior",
 
 	"Comment": "Yes",
 
