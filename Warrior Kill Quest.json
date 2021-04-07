@@ -1,0 +1,54 @@
+{
+  "ServerType": "Mines",
+  "Key": "warrior_kill_quest",
+  "Name": "Warrior Kill Quest",
+  "Description": "Kill quest for the Warrior Quest",
+  "Author": "PresDaGod",
+  "AllowRejoining": true,
+
+  "Hold": [],
+
+  "KillMythicMob": [
+    "Shambler",
+    25
+  ],
+
+  "Progress": [
+    "village_warrior"
+  ],
+
+  "Hold": [],
+
+"KillMythicMob": [
+    "Goblin Grunt",
+    30
+],
+
+  "Progress": [
+    "village_warrior"
+  ],
+
+  "Hold": [],
+
+  "KillMythicMob": [
+    "Goblin Archer",
+    40
+  ],
+
+  "Progress": [
+    "village_warrior"
+  ],
+
+  "Hold": [],
+
+  "KillMythicMob": [
+    "Crawler",
+    50
+  ],
+
+  "Progress": [
+    "village_warrior"
+  ],
+
+  "Complete": []
+}
