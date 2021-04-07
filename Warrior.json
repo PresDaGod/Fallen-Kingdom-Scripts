@@ -19,15 +19,15 @@
 		"name": "&3&lTiny Tim"
 	},
 
+	"HighlightClickEntity": [
+		"tim"
+	],
+
 	"NotCompleted": [
 		"village_warrior",
 		"&cYou are already a warrior of Fallen Kingdom."
 	],
 	
-	"HighlightClickEntity": [
-		"tim"
-	],
-
 	"Dialog": [{
 		"tim": "Welcome to the royal barracks!",
 		"tim": "Recently as you may have heard, the kingdom has been under siege by the cursed monsters of this land"
