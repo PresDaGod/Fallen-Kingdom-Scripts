@@ -27,11 +27,21 @@
 		"tim": "Recently as you may have heard, the kingdom has been under siege by the cursed monsters of this land"
 	}],
 
-	"Wait": 40,
+	"Wait": 50,
 
 	"Dialog": [{
-		"tim": "These monsters continue to defeat my men time and time again.",
-		"tim": "We need new warriors to join our ranks in the hopes to defeat them",
+		"tim": "These monsters continue to defeat my men time and time again."
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
+		"tim": "We need new warriors to join our ranks in the hopes to defeat them"
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
 		"tim": "Are you willing to pick up the mantle to defend this marvelous kingdom?"
 	}],
 
@@ -49,14 +59,24 @@
 	"Start": ["warrior_kill_quest"],
 
 	"Dialog": [{
-		"tim": "The King thanks you for your generosity to the crown",
+		"tim": "The King thanks you for your generosity to the crown"
+	}],
+
+	"Wait": 40,
+
+	"Dialog": [{
 		"tim": "Before we release you into the battle fields, we must make sure you are prepared to fight"
 	}],
 
 	"Wait": 40,
 
 	"Dialog": [{
-		"tim": "We have discovered that in the mines there are weaker versions of the mobs that are attacking the kingdom",
+		"tim": "We have discovered that in the mines there are weaker versions of the mobs that are attacking the kingdom"
+	}],
+
+		"Wait": 40,
+
+	"Dialog": [{
 		"tim": "Go there and take out &625 Shamblers&f. Return to me once it is finished for your next task."
 	}],
 
@@ -75,6 +95,13 @@
 		"tim": "For your second task you will return to the mines, but this time your task is to take out &630 Goblin Grunts&f."
 	}],
 
+		"Wait": 40,
+
+		"Dialog": [{
+			"tim": "For your second task you will return to the mines, but this time your task is to take out &630 Goblin Grunts&f."
+		}],
+
+
 	"Progress": [
 		"warrior_kill_quest"
 	],
@@ -86,8 +113,13 @@
 	],
 
 	"Dialog": [{
-		"tim": "You are showing real talent young warrior. No one else has ever completed these tasks as fast as you have.",
-		"tim": "Another task for you to accomplish.",
+		"tim": "You are showing real talent young warrior. No one else has ever completed these tasks as fast as you have."
+	}],
+
+	"Wait": 50,
+
+	"Dialog": [{
+		"tim": "I have yet another task for you to accomplish.",
 		"tim": "Head into Mines II and take out &640 Goblin Archers&f."
 	}],
 
@@ -102,8 +134,18 @@
 	],
 
 	"Dialog": [{
-		"tim": "You are doing quite well, only a couple more tasks left for you.",
-		"tim": "The kings guard is having trouble with their weaponry breaking, iron is just not cutting it anymore",
+		"tim": "You are doing quite well, only a couple more tasks left for you."
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
+		"tim": "The kings guard is having trouble with their weaponry breaking, iron is just not cutting it anymore"
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
 		"tim": "Head into the mines and fetch &664 Gold Ingots&f."
 	}],
 
@@ -133,8 +175,18 @@
 	],
 
 	"Dialog": [{
-		"tim": "Young warrior, you have exceeded all expections I had of you before.",
-		"tim": "It is my honor to pronounce you a warrior of Fallen Kingdom.",
+		"tim": "Young warrior, you have exceeded all expections I had of you before."
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
+		"tim": "It is my honor to pronounce you a warrior of Fallen Kingdom."
+	}],
+
+	"Wait": 30,
+
+	"Dialog": [{
 		"tim": "Soon you will be called upon by the King. In the meantime, prepare yourself for what is to come."
 	}],
 
