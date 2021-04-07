@@ -1,10 +1,11 @@
 {
-  "ServerType": "mines",
+  "ServerType": "hub",
   "Key": "warrior_kill_quest",
   "Name": "Warrior Kill Quest",
   "Description": "Kill quest for the Warrior Quest",
   "Author": "PresDaGod",
   "AllowRejoining": true,
+  "Quest": true,
 
   "Hold": [],
 
