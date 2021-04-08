@@ -9,7 +9,7 @@
   "Hold": [],
 
   "KillMythicMob": [
-    "Shambler",
+    "ShamblerF1E",
     25
   ],
 
@@ -22,7 +22,7 @@
   "Hold": [],
 
 "KillMythicMob": [
-    "Goblin Grunt",
+    "GoblinGruntF1",
     30
 ],
 
@@ -35,7 +35,7 @@
   "Hold": [],
 
   "KillMythicMob": [
-    "Goblin Archer",
+    "GoblinArcherF2",
     40
   ],
 
@@ -48,7 +48,7 @@
   "Hold": [],
 
   "KillMythicMob": [
-    "Crawler",
+    "CrawlerF2",
     50
   ],
 
