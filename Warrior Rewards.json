@@ -1,0 +1,21 @@
+{
+  "Key": "village_warrior_rewards",
+  "Name": "Village Warrior Rewards",
+
+  "If": [],
+  "NotCompleted": [
+    "village_warrior"
+  ],
+  "Skip": "Rewards",
+  "SendMessage": "&cYou have already recieved rewards from this quest",
+  "Leave": "village_warrior",
+  "Leave": "warrior_kill_quest",
+  "Leave": "village_warrior_rewards",
+
+  "Comment": "Rewards",
+  "GiveKingdomGold": [
+    15000
+  ],
+
+  "Complete": []
+}
