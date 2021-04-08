@@ -18,7 +18,8 @@
 		"location": [1971.5, 62, 683.5, 270],
 		"name": "&3&lTiny Tiny Tim",
 		"hand": "Iron Sword",
-		"offhand": "Shield"
+		"offhand": "Shield",
+		"cape": false
 	},
 
 	"HighlightClickEntity": [
