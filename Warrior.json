@@ -27,7 +27,7 @@
 		"village_warrior",
 		"&cYou are already a warrior of Fallen Kingdom."
 	],
-	
+
 	"Dialog": [{
 		"tim": "Welcome to the royal barracks!",
 		"tim": "Recently as you may have heard, the kingdom has been under siege by the cursed monsters of this land"
@@ -97,8 +97,7 @@
 	],
 	"Dialog": [{
 		"tim": "Ah you have returned young warrior!",
-		"tim": "I see you have completed you first task with ease. But it is not over yet",
-		"tim": "For your second task you will return to the mines, but this time your task is to take out &630 Goblin Grunts&f."
+		"tim": "I see you have completed your first task with ease. But it is not over yet",
 	}],
 
 		"Wait": 40,
