@@ -13,6 +13,8 @@
     25
   ],
 
+  "SendMessage": "&c&lYou have completed your first task, return now to Tiny Tim",
+
   "Progress": [
     "village_warrior"
   ],
@@ -23,6 +25,8 @@
     "Goblin Grunt",
     30
 ],
+
+  "SendMessage": "&c&lYou have completed your second task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
@@ -35,6 +39,8 @@
     40
   ],
 
+  "SendMessage": "&c&lYou have completed your third task, return now to Tiny Tim",
+
   "Progress": [
     "village_warrior"
   ],
@@ -45,6 +51,8 @@
     "Crawler",
     50
   ],
+
+  "SendMessage": "&c&lYou have completed your final task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
