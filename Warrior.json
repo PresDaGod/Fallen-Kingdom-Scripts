@@ -15,7 +15,7 @@
 			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTMzMzY4NTI5MiwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJhZjU1MDg3YzA4MWQ5OGU0ODRlNjM2YWY2N2MyM2M5ZDk0Y2EzYTBhYWY2OTk1MTU1ODU1N2I2OGNlZjE4NCIKICAgIH0KICB9Cn0=",
 			"signature": "QbeFV6Gwp6kzB6eG2lGjMfWfaRbdvREMoKrDnRf+CRBLSBMnBrJiAsMCBxvfJzeBnByTjhrZ8WGNgDhBG1rp52HQt+L/esqu04S10XU9VB7coaJtRoVSljYSXvz9VHeQatw+VL5vZiW7jCJ+ymMFs6A03y6V0GSuBPZn/7/KxbwFqsKxpRY+GEeuf4dnMqhIdHwUH5L9oFoQTBbJcNzF8ejvXjVxTguy5Kq0w8xIMhHBr739Jr5uF2wvIk2Akt2wudGpAVwQDrlDwLyiylT5qsgXTG+cEM7EF3Wu5jR/Yrf7GjxDqVumXmowpJBibBotNcCRl4libsxQjioO7Vr+weYk1jhtbiIlcIRHXFWh5crRGXT46mXpWKIF/8XyfO07kcwwxPtWIHdI1zdQbNRCJ/UUrFqDpay7JXTiWnt5HtArUHtAZofSkuSsa9ORPRVysdkvxqrmgsvwEIvZQ3pDUhcoCHp/VGKWRk1mQDBZ7ld6T4SjDaq+hY6hiiUNy39WT9K1ipoGYQ+S9wat0ilpmoDhipawj70EmuKepdsIqbIm2h6Lk/61BmbYcq7YaPonmT2p6rMOjRajofEUJ5e4/5ZG+ZWEPc+40F8EfOdhFloizDXrqDP4qu+My9zgxtgRVLE6sQGTKN74XN2v01IRLt2aE3IqbuHKFoV9eUaNUw8="
 		},
-		"location": [1971.5, 62, 683.5, 90],
+		"location": [1971.5, 62, 683.5, 270],
 		"name": "&3&lTiny Tim"
 	},
 
@@ -27,6 +27,14 @@
 		"village_warrior",
 		"&cYou are already a warrior of Fallen Kingdom."
 	],
+"If": [],
+	"HasKingdomBuilding": [
+		"mine",
+		2
+	],
+	"Skip": "Dialog",
+	"SendMessage": "&cYou need Mines II to start this quest",
+	"Leave": "village_warrior",
 
 	"Dialog": [{
 		"tim": "Welcome to the royal barracks!",
