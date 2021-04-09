@@ -11,10 +11,8 @@
     "ShamblerF1E",
     25
   ],
-  
-  "PlaySound": [
-    "random.levelup"
-  ],
+
+  "PlaySound": "Entity Player LevelUp",
 
   "SendMessage": "&2&lYou have completed your first task, return now to Tiny Tim",
 
@@ -28,9 +26,7 @@
     "GoblinGruntF1",
     30
 ],
-  "PlaySound": [
-    "random.levelup"
-  ],
+  "PlaySound": "Entity Player LevelUp",
 
   "SendMessage": "&2&lYou have completed your second task, return now to Tiny Tim",
 
@@ -44,9 +40,7 @@
     "GoblinArcherF2",
     40
   ],
-  "PlaySound": [
-    "random.levelup"
-  ],
+  "PlaySound": "Entity Player LevelUp",
 
   "SendMessage": "&2&lYou have completed your third task, return now to Tiny Tim",
 
@@ -60,9 +54,7 @@
     "CrawlerF2",
     50
   ],
-  "PlaySound": [
-    "random.levelup"
-  ],
+  "PlaySound": "Entity Player LevelUp",
 
   "SendMessage": "&2&lYou have completed your final task, return now to Tiny Tim",
 
