@@ -216,9 +216,6 @@
 		"Tiny Tim": "Aquire &664 Gold Ingots &fand bring them to me."
 	}],
 
-	"ClickEntity": [
-		"Tiny Tim"
-	],
 
 	"ProvideItem": [
 		"Tiny Tim",
@@ -266,7 +263,7 @@
 	"Wait": 30,
 
 	"Dialog": [{
-		"Tiny Tim": "Soon you will be called upon by the King. In the meantime time, prepare yourself for what is to come."
+		"Tiny Tim": "Soon you will be called upon by the King. In the meantime, prepare yourself for what is to come."
 	}],
 
 	"Start": [
