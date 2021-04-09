@@ -11,8 +11,12 @@
     "ShamblerF1E",
     25
   ],
+  
+  "PlaySound": [
+    "random.levelup"
+  ],
 
-  "SendMessage": "&c&lYou have completed your first task, return now to Tiny Tim",
+  "SendMessage": "&2&lYou have completed your first task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
@@ -24,8 +28,11 @@
     "GoblinGruntF1",
     30
 ],
+  "PlaySound": [
+    "random.levelup"
+  ],
 
-  "SendMessage": "&c&lYou have completed your second task, return now to Tiny Tim",
+  "SendMessage": "&2&lYou have completed your second task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
@@ -37,8 +44,11 @@
     "GoblinArcherF2",
     40
   ],
+  "PlaySound": [
+    "random.levelup"
+  ],
 
-  "SendMessage": "&c&lYou have completed your third task, return now to Tiny Tim",
+  "SendMessage": "&2&lYou have completed your third task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
@@ -50,8 +60,11 @@
     "CrawlerF2",
     50
   ],
+  "PlaySound": [
+    "random.levelup"
+  ],
 
-  "SendMessage": "&c&lYou have completed your final task, return now to Tiny Tim",
+  "SendMessage": "&2&lYou have completed your final task, return now to Tiny Tim",
 
   "Progress": [
     "village_warrior"
