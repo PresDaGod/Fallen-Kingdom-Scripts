@@ -38,7 +38,7 @@
 
 	"Dialog": [{
 		"Tiny Tim": "Welcome to the royal barracks!",
-		"Tiny Tim": "Recently as you may have heard, the kingdom has been under siege by the cursed monsters of this land"
+		"Tiny Tim": "Recently as you may have heard, the kingdom has been under siege by the cursed monsters of this land."
 	}],
 
 	"Wait": 50,
@@ -50,7 +50,7 @@
 	"Wait": 30,
 
 	"Dialog": [{
-		"Tiny Tim": "We need new warriors to join our ranks in the hopes to defeat them"
+		"Tiny Tim": "We need new warriors to join our ranks in the hopes to defeat them."
 	}],
 
 	"Wait": 30,
@@ -63,7 +63,7 @@
 
 	"Skip": "Yes",
 	"Dialog": [{
-		"Tiny Tim": "A shame... We really could have used someone like you"
+		"Tiny Tim": "A shame... We really could have used someone like you."
 	}],
 	"Leave": "village_warrior",
 	"Leave": "warrior_kill_quest",
@@ -73,31 +73,31 @@
 	"Start": ["warrior_kill_quest"],
 
 	"Dialog": [{
-		"Tiny Tim": "The King appreciates your service to defending the crown"
+		"Tiny Tim": "The King appreciates your service to defending the crown."
 	}],
 
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "Before we release you into the battle fields, we must make sure you are prepared to fight"
+		"Tiny Tim": "Before we release you into the battle fields, we must make sure you are prepared to fight."
 	}],
 
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "We have discovered that in the mines there are weaker versions of the mobs that are attacking the kingdom"
+		"Tiny Tim": "We have discovered that in the mines there are weaker versions of the mobs that are attacking the kingdom."
 	}],
 
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "Shamblers are the front line of mobs attacking the kingdom"
+		"Tiny Tim": "Shamblers are the front line of mobs attacking the kingdom."
 		}],
 
 		"Wait": 30,
 
 		"Dialog": [{
-			"Tiny Tim": "Without them the enemy's ranks will begin to crumble"
+			"Tiny Tim": "Without them the enemy's ranks will begin to crumble."
 			}],
 
 			"Wait": 30,
@@ -123,21 +123,25 @@
 	"Wait": 60,
 
 	"Dialog": [{
-		"Tiny Tim": "Our troops will be able to penetrate their deeper ranks with ease"
+		"Tiny Tim": "Our troops will be able to penetrate their deeper ranks with ease."
 		}],
 
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "The enemy's Goblin Grunts are a powerful enemy",
-		"Tiny Tim": "They have the ability to leap towards you and catch you by surprise"
+		"Tiny Tim":"The next enemy you will see if the Goblin Grunts."
+		}],
+
+	"Dialog": [{
+		"Tiny Tim": "The enemy's Goblin Grunts are a powerful enemy...",
+		"Tiny Tim": "They have the ability to leap towards you and catch you by surprise."
 		}],
 
 		"Wait": 40,
 
 		"Dialog": [{
 			"Tiny Tim": "They continuously knock our horsemen off of their horses.",
-			"Tiny Tim": "Without them our cavalry can push ahead and speed through the enemy"
+			"Tiny Tim": "Without them our cavalry can push ahead and speed through the enemy."
 			}],
 
 			"Wait": 40,
@@ -165,13 +169,13 @@
 
 	"Dialog": [{
 		"Tiny Tim": "The next enemy you will be seeing is the Goblin Archers.",
-		"Tiny Tim": "Goblin Archers are the most dangerous enemy you will face"
+		"Tiny Tim": "Goblin Archers are the most dangerous enemy you will face..."
 		}],
 
 		"Wait": 40,
 
 		"Dialog": [{
-			"Tiny Tim": "They have the ability to hit you from a very long range with incredible speed and accuracy"
+			"Tiny Tim": "They have the ability to hit you from a very long range with incredible speed and accuracy."
 			}],
 
 			"Wait": 40,
@@ -197,7 +201,7 @@
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "A warrior should always have a sturdy weapon at their disposal"
+		"Tiny Tim": "A warrior should always have a sturdy weapon at their disposal."
 		}],
 
 	"Dialog": [{
@@ -206,7 +210,7 @@
 
 	"Wait": 50,
 	"Dialog": [{
-	"Tiny Tim": "Iron swords are just not strong enough anymore. They need something with more power"
+	"Tiny Tim": "Iron swords are just not strong enough anymore. They need something with more power."
 	}],
 	"Dialog": [{
 		"Tiny Tim": "Aquire &664 Gold Ingots &fand bring them to me."
@@ -229,9 +233,9 @@
 	"Wait": 40,
 
 	"Dialog": [{
-		"Tiny Tim": "The last enemy I will train you on are the Crawlers",
+		"Tiny Tim": "The last enemy I will train you on are the Crawlers.",
 		"Tiny Tim": "Crawlers have a unique ability to scale our walls at an impressive speed",
-		"Tiny Tim": "It can be quite devasitating to those that are inside the walls"
+		"Tiny Tim": "It can be quite devasitating to those that are inside the walls seeking protection."
 		}],
 
 	"Dialog": [{
