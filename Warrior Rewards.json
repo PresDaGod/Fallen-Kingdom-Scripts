@@ -13,6 +13,11 @@
   "Leave": "village_warrior_rewards",
 
   "Comment": "Rewards",
+
+  "Dialog": [{
+    "Tiny Tim":"Oh I almost forgot...",
+    "Tiny Tim":"Here is a reward to you for becoming a Fallen Kingdom Warrior"
+    }],
   "GiveKingdomGold": [
     15000
   ],
