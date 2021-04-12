@@ -36,7 +36,7 @@
 	}],
 
 	"Wait": 40,
-	"SendMessageOptions": ["&2&lYes", "&3&lNo"],
+	"SendMessageOptions": ["&2&lYes", "&4&lNo"],
 	"Skip": "Yes",
 	"Dialog": [{
 		"Willie Jr": "Oh... Okay, thanks anyway"
@@ -51,7 +51,7 @@
 
 	"Wait": 30,
 	"Dialog": [{
-		"Willie Jr": "Once the mobs attacked we fleed the kingdom and began creating our own.",
+		"Willie Jr": "Once the mobs attacked we fled the kingdom and began creating our own.",
 		"Willie Jr": "However its not that easy... We are having a hard time keeping up with required supplies to train troops"
 	}],
 	"Wait": 50,
