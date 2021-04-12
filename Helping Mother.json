@@ -61,12 +61,12 @@
 		"Kristen": "I was wondering if you were  able to help us again?"
 	}],
 
-	"SendMessageOptions": ["&2&lYes","&3&lNo"],
+	"SendMessageOptions": ["&2&lYes", "&3&lNo"],
 	"Skip": "Yes",
 	"Dialog": [{
-		"Very well.. Thank you again for what youve done for Willie Jr."
-		}],
-		"Leave": [],
+		"Kristen": "Very well.. Thank you again for what youve done for Willie Jr."
+	}],
+	"Leave": [],
 
 	"Comment": "Yes",
 	"Wait": 25,
@@ -163,7 +163,7 @@
 		"Kristen": "Thank you so very much, you have no idea how much this helps us."
 	}],
 
-"Wait": 35,
+	"Wait": 35,
 
 	"Dialog": [{
 		"Kristen": "I will make sure we compensate you for all the help you have done for us so far.",
