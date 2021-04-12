@@ -40,26 +40,26 @@
 	"Skip": "Yes",
 	"Dialog": [{
 		"Willie Jr": "Oh... Okay, thanks anyway"
-		}],
+	}],
 
-		"Comment": "Yes",
-
-		"Dialog": [{
-			"Willie Jr": "Thank you!",
-			"Willie Jr": "You see, my parents were apart of the kingdom that fell in the farlands."
-			}],
-
-			"Wait": 30,
-		"Dialog": [{
-			"Willie Jr": "Once the mobs attacked we fleed the kingdom and began creating our own."
-			"Willie Jr": "However its not that easy... We are having a hard time keeping up with required supplies to train troops"
-			}],
-			"Wait": 50,
+	"Comment": "Yes",
 
 	"Dialog": [{
-			"Willie Jr": "We could really use &664 Rotten Flesh &fso we can gather more gold.",
-			"Willie Jr": "Could you bring us some?"
-		}],
+		"Willie Jr": "Thank you!",
+		"Willie Jr": "You see, my parents were apart of the kingdom that fell in the farlands."
+	}],
+
+	"Wait": 30,
+	"Dialog": [{
+		"Willie Jr": "Once the mobs attacked we fleed the kingdom and began creating our own.",
+		"Willie Jr": "However its not that easy... We are having a hard time keeping up with required supplies to train troops"
+	}],
+	"Wait": 50,
+
+	"Dialog": [{
+		"Willie Jr": "We could really use &664 Rotten Flesh &fso we can gather more gold.",
+		"Willie Jr": "Could you bring us some?"
+	}],
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
@@ -80,7 +80,7 @@
 	"TakeItem": [{
 		"material": "Rotten Flesh",
 		"amount": "64"
-		}],
+	}],
 
 
 	"Dialog": [{
@@ -101,7 +101,7 @@
 	"HighlightClickEntity": [
 		"Willie Jr"
 	],
-	"Comment":"If2",
+	"Comment": "If2",
 	"If": [],
 	"HasItem": [{
 		"material": "Bone",
@@ -127,7 +127,7 @@
 
 	"Dialog": [{
 		"Willie Jr": "Oh I almost forgot, heres a reward for you."
-		}],
+	}],
 
 	"Start": [
 		"helping_children_reward"
