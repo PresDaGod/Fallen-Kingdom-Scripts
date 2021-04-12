@@ -35,17 +35,9 @@
 	],
 
 	"If": [],
-	"HasItem": [
-		{
-			"material": "Gold Nugget",
-			"name": "&b&lWillie Jr's Token",
-			"description": "Present this token to Kristen to start the next quest",
-			"glow": true
-		},
-		1
-	],
+	"Completed": "helping_children",
 	"Skip": "If",
-	"SendMessage": "&cYou dont have Willie Jr's Token&c.",
+	"SendMessage": "&cYou havn't helped Willie Jr yet.",
 	"Leave": [],
 
 	"If": [],
@@ -58,19 +50,33 @@
 	"Leave": [],
 
 	"Dialog": [{
-		"Kristen": "Hello there! You must be the one Willie Jr has talked so much about"
+		"Kristen": "Hello there!",
+		"Kristen": "You must be the one my son has told me all about"
 	}],
 
 	"Wait": 30,
 
 	"Dialog": [{
-		"Kristen": "Would you be able to help us again?"
+		"Kristen": "Willie Jr has talked very highly of how much you helped him.",
+		"Kristen": "I was wondering if you were  able to help us again?"
 	}],
 
+	"SendMessageOptions": ["&2&lYes","&3&lNo"],
+	"Skip": "Yes",
+	"Dialog": [{
+		"Very well.. Thank you again for what youve done for Willie Jr."
+		}],
+		"Leave": [],
+
+	"Comment": "Yes",
 	"Wait": 25,
 	"Dialog": [{
 		"Kristen": "Perfect!",
-		"Kristen": "Our troops are gravely injured, could you please bring us &696 Spider Eyes &ftherefore we can train witches to heal our troops?"
+		"Kristen": "We recently started raiding other kingdoms and our troops have become gravely injured during the fights",
+		"Kristen": "I heard there are witches that can heal our troops",
+		"Kristen": "However the spider eyes required to train them are located in Mines II..",
+		"Kristen": "We dare not travel there ourselves. It is much to dangerous for us",
+		"Kristen": "Could you go there and bring us &696 Spider Eyes&f?"
 	}],
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop",
@@ -96,8 +102,10 @@
 	"SendMessage": "&1Removed>&796 Spider Eyes",
 
 	"Dialog": [{
-		"Kristen": "This is perfect! Now we can heal our existing troops!",
-		"Kristen": "Next, Could you please bring me &6128 Venomous Extract &f?"
+		"Kristen": "This is great, now we can do a much better job raiding other kingdoms.",
+		"Kristen": "While you were gone I overheard some townsfolks speaking of Spider Jockeys and how useful they are",
+		"Kristen": "Legend has it, they can be trained using Venomous Extract which is located in Mines III",
+		"Kristen": "Can you bring us &6128 Venomous Extract&f?"
 	}],
 
 	"Skip": "HighlightClickEntity",
@@ -123,14 +131,11 @@
 
 	"Dialog": [{
 		"Kristen": "Ah beautiful!",
-		"Kristen": "Just one more thing.. We have run out of Iron for our tools"
+		"Kristen": "There's one more thing we need your help with.",
+		"Kristen": "Our stone tools are not strong enough to mine the more valuable ores",
+		"Kristen": "We could use &664 Iron Ingots &fso we can make stronger tools"
 	}],
 
-	"Wait": 25,
-
-	"Dialog": [{
-		"Kristen": "Can you bring us &664 Iron Ingots &f?"
-	}],
 
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop3",
@@ -155,13 +160,14 @@
 	}],
 
 	"Dialog": [{
-		"Kristen": "Thank you so very much, you have no idea how much this means to us"
+		"Kristen": "Thank you so very much, you have no idea how much this helps us."
 	}],
 
 "Wait": 35,
 
 	"Dialog": [{
-		"Kristen": "Willie B will be home soon, he may have a job for you then."
+		"Kristen": "I will make sure we compensate you for all the help you have done for us so far.",
+		"Kristen": "Also, Willie B will be home soon, He may have a couple jobs for you to do"
 	}],
 	"Hide": "Kristen",
 	"Complete": []
