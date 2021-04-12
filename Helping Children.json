@@ -32,12 +32,33 @@
 	],
 
 	"Dialog": [{
-		"Willie Jr": "Excuse me, I need your help with something."
+		"Willie Jr": "Excuse me, can you help me?"
 	}],
 
 	"Wait": 40,
+	"SendMessageOptions": ["&2&lYes", "&3&lNo"],
+	"Skip": "Yes",
 	"Dialog": [{
-			"Willie Jr": "Our kingdom is very low on supplies to train new troops. Could you please bring me &664 Rotten Flesh&f?"
+		"Willie Jr": "Oh... Okay, thanks anyway"
+		}],
+
+		"Comment": "Yes",
+
+		"Dialog": [{
+			"Willie Jr": "Thank you!",
+			"Willie Jr": "You see, my parents were apart of the kingdom that fell in the farlands."
+			}],
+
+			"Wait": 30,
+		"Dialog": [{
+			"Willie Jr": "Once the mobs attacked we fleed the kingdom and began creating our own."
+			"Willie Jr": "However its not that easy... We are having a hard time keeping up with required supplies to train troops"
+			}],
+			"Wait": 50,
+
+	"Dialog": [{
+			"Willie Jr": "We could really use &664 Rotten Flesh &fso we can gather more gold.",
+			"Willie Jr": "Could you bring us some?"
 		}],
 
 	"Skip": "HighlightClickEntity",
@@ -63,17 +84,20 @@
 
 
 	"Dialog": [{
-		"Willie Jr": "Thank you so much!"
+		"Willie Jr": "Thank you so much!",
+		"Willie Jr": "My parents will really appreciate this!!"
 	}],
 	"Wait": 40,
 
 	"Dialog": [{
+		"Willie Jr": "I overheard my parents talking about the pesky bees that keep attacking our troops.",
+		"Willie Jr": "I'm sure that skeletons are good to stop those.",
 		"Willie Jr": "Could you also get me &664 Bones&f?"
 	}],
 	"Skip": "HighlightClickEntity",
 	"Comment": "loop2",
 	"SendMessage": "&cYou dont have enough &6Bones &cto return to Willie Jr.",
-	
+
 	"HighlightClickEntity": [
 		"Willie Jr"
 	],
@@ -91,22 +115,14 @@
 		"amount": "64"
 	}],
 	"Dialog": [{
-		"Willie Jr": "Oh my, Thank you again!"
+		"Willie Jr": "Oh my, Thank you again!",
+		"Willir Jr": "Now we can get more gold and become the very best kingdom, that no one ever was."
 	}],
 	"Wait": 30,
 
 	"Dialog": [{
-		"Willie Jr": "My mom is always looking for people to help out, here is a token for you to show her that you helped us"
+		"Willie Jr": "I'll have to tell my mom about you, she was looking for people to help out our kingdom!"
 	}],
-
-	"GiveItem":{
-		"material": "Gold Nugget",
-		"amount": 1,
-		"name": "&b&lWillie Jr's Token",
-		"description": "Present this token to Kristen to start the next quest",
-		"glow": true
-	},
-
 	"Wait": 40,
 
 	"Dialog": [{
@@ -117,6 +133,6 @@
 		"helping_children_reward"
 	],
 
-	"CompleteKingdomQuest": []
+	"Complete": []
 
 }
