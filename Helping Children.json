@@ -22,13 +22,13 @@
 		"name": "&b&lWillie Jr"
 	},
 
-	"ClickEntity": [
-		"Willie Jr"
-	],
-
 	"NotCompleted": [
 		"helping_children",
 		"&cYou have already helped &b&lWillie Jr&c."
+	],
+
+	"HighlightClickEntity": [
+		"Willie Jr"
 	],
 
 	"Dialog": [{
