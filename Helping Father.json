@@ -66,10 +66,15 @@
   "Wait": 60,
   "MoveEntity": ["robber", 2039.5, 22.0, 557.5],
 	"Fade": [],
+	"StopCinematic": [],
 	"Teleport": [
 		1985.0,
 		29.0,
 		638.0
+	],
+
+	"HighlightClickEntity": [
+		"Willie"
 	],
 
 	"Dialog": [{
