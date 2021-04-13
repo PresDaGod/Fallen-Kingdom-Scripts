@@ -4,22 +4,15 @@
 	"CreateEntity": {
 		"key": "center",
 		"entity": "Armor Stand",
-		"Location": [
-			2039.5,
-			22.0,
-			574.5
-		]
+		"location": [2039.5,22.0,574.5]
 	},
 	"Hide": "center",
 	"Fade": [],
 	"Cinematic": [],
 	"SetScoreboard": "",
 	"Teleport": [2052.5, 31, 574.5],
-	"Look": [
-		"camera",
-		"center"
-	],
+	"Look": ["center", 120],
 	"Wait": 120,
 	"Fade": [],
-	"Teleport": "SPAWN"
+	"Teleport": [1985,29,638]
 }
