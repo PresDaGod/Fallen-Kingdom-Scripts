@@ -29,10 +29,49 @@
 		"mine",
 		3
 	],
+
 	"Skip": "Dialog",
 	"SendMessage": "&cYou need Mines Lvl. III to start this quest.",
 	"Leave": [],
+	"CreateEntity": {
+		"key": "center",
+		"entity": "Armor Stand",
+		"location": [
+			2039.5,
+			22.0,
+			574.5
+		]
+	},
+	"CreateEntity": {
+		"key": "robber",
+		"skin": {
+			"texture": "eyJ0aW1lc3RhbXAiOjE1NTc0ODQyNzQyNTcsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU1OTU2MmU0ZTdjMmNmYTllNDI0MjQ0YmE1ZDJiZDYyNTVhMzQyMmQzZDgzMWU1MDIwM2VjZTkwNWJjYWNmOCJ9fX0=",
+			"signature": "QFLB611eBmVmFUiqq8S8utheoc/4aChAAXwg2L2kc9yNop4+KxtUGYkVzo5F/H0+cVzVQyDp48mHnt1K04P8Ss+xIINqCIrK+2wRmLEpP94IJrNGBml+qZ0VVLTvP8NbiY4PnAWnQGQ6BUT+lZqrpQ0AyXoieHa8yqQZH4q2Ws/GZHfy4KWfHCDCaOe1bQ4qhjay0HjRkxAM3JA08zPSzcHqO99YEFO6/LPo516heB7Vt66FycBw8ijp794+1WBY3VJDm0D9GqNjc1hVGdRQIfB6Yxm2AIOnbTW0PMrg/MRowJBs6MHAY/w5v5vWWNWXnkUr2j6EEiNSs0WSIU7xJf9DwlJb1SZxocbbiFsskppfoOgKkjuflxtXb8hB3yPGHKEcrtFXkKpyFY47HuteU1hVWSFi792rWyvPXC4hZvSs3KXEjGPw2eJlgIfDui02Vs2Le3cJ4GtBKcACP5KOP0ZLnk846tS1454XdEWH4K7Q1ulfPoOQVb43hukld+VJBL3xWyJgO94aAgVISxkVuPdkgFNeBv6K6GNqMwBsKbfk7gbsTPtOaWoiPRAUFB+xULJ4L1Ll6TN4Jc3LWYxjf1/LjE7UE0niXN17wkKDX3GXLs5osPN8Z5c/wTg8Or7An3JoCoRfk3KCMbOTgd56aYSxt2hlkQwmdw/GFxJnn2k="
+		},
+		"location": [2039.5, 22, 557.5]
+	},
 
+
+	"Hide": "center",
+	"Fade": [],
+	"Cinematic": [],
+	"SetScoreboard": "",
+	"Teleport": [
+		2052.5,
+		31.0,
+		574.5
+	],
+  "Look": ["center", 240],
+  "MoveEntity": ["robber", 2039.5, 22.0, 573.5],
+  "Wait": 60,
+  "MoveEntity": ["robber", 2039.5, 22.0, 557.5],
+	"Fade": [],
+	"Teleport": [
+		1985.0,
+		29.0,
+		638.0
+	],
+	
 	"Dialog": [{
 		"Willie": "Thank goodness you're here.",
 		"Willie": "We had a bandit come and steal some of our diamonds.",
@@ -130,5 +169,5 @@
 			}],
 
 		"Start": "helping_father_rewards",
-		"CompleteKingdomQuest": [],
+		"CompleteKingdomQuest": []
 }
