@@ -75,6 +75,7 @@
 		"offhand": "Gold Ingot"
 	},
 	"Hide": "robber",
+	"Wait": 30,
   "MoveEntity": ["robber2", 2039.5, 22.0, 557.5],
 	"Fade": [],
 	"StopCinematic": [],
