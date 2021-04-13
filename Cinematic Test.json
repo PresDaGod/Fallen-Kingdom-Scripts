@@ -1,0 +1,27 @@
+{
+  "Key": "cinematic_test",
+  "Name": "Cinetmic Test",
+  "CreateEntity": {
+    "key": "center",
+    "entity": "Armor Stand",
+    "Location": 	[
+      "x": 2039.5,
+			"y": 22.0,
+			"z": 574.5,
+			"yaw": 90.0,
+			"pitch": 0.0
+    ]
+  },
+  "Hide": "center",
+  "Fade": [],
+  "Cinematic": [],
+  "SetScoreboard": "",
+  "Teleport": [2052.5, 31, 574.5],
+  "Look": [
+    "camera",
+    "center"
+  ],
+  "Wait": 120,
+  "Fade": [],
+  "Teleport": "SPAWN"
+}
