@@ -18,20 +18,26 @@
 	"HighlightClickEntity": [
 		"Willie"
 	],
-
+	"If": [],
+	"Completed": "helping_mother",
+	"Skip": "If",
+	"SendMessage":"You haven't helped &3&lKristen &fyet.",
+	"Leave": [],
 
 	"If": [],
 	"HasKingdomBuilding": [
 		"mine",
-		4
+		3
 	],
 	"Skip": "Dialog",
-	"SendMessage": "&cYou need Mines Lvl. IV to start this quest.",
+	"SendMessage": "&cYou need Mines Lvl. III to start this quest.",
 	"Leave": [],
 
 	"Dialog": [{
 		"Willie": "Thank goodness you're here.",
 		"Willie": "We had a bandit come and steal some of our diamonds.",
+		"Willie": "I have been keeping those diamonds safe for the King",
+		"Willie": "I will be in so much trouble if he finds out they were stolen",
 		"Willie": "I would be very grateful if you were able to go to the mines and bring us &648 Diamonds&f."
 	}],
 
@@ -60,7 +66,9 @@
 
 	"Dialog": [{
 		"Willie": "Thank you so very much! You have no idea how much this means.",
-		"Willie": "It appears the bandit also got to our gold stash.. Would you also be able to get us &696 Gold Ingots&f?"
+		"Willie": "While you were gone I also discovered the bandit also got into our gold stash",
+		"Willie": "We need that gold in order to pay our taxes",
+		"Willie": "Could you bring us &696 Gold Ingots&f?"
 	}],
 
 	"Skip": "HighlightClickEntity",
@@ -85,8 +93,12 @@
 	}],
 
 	"Dialog": [{
-		"Willie": "Amazing! Now I can afford to reward everyone that does my quests.",
-		"Willie": "Just one more thing, we need about &6256 Rabbit Hide &fin order to make armor. If you could please fetch that for me."
+		"Willie": "This is perfect! Now we can continue to have our townhouse here in the kingdom",
+		"Willie": "Just one more thing however",
+		"Willie": "It has occurred to me that my family not protected enough against robbers",
+		"Willie": "They need some new armor, however I do not have enough leather",
+		"Willie": "I heard that Rabbit Hide could also be used within armor",
+		"Willie": "Could you bring me &6256Rabbit Hide&f?"
 		}],
 
 		"Skip": "HighlightClickEntity",
@@ -111,8 +123,12 @@
 		}],
 
 		"Dialog": [{
-			"Willie": "This will do nicely.",
-			"Willie": "I thank you for all that you have done for my family."
-			}]
+			"Willie": "This will do perfectly",
+			"Willie": "I thank you for all that you have done for my family.",
+			"Willie": "We are forever in your debt",
+			"Willie": "In fact, I do have a reward for you here"
+			}],
 
+		"Start": "helping_father_rewards",
+		"CompleteKingdomQuest": [],
 }
