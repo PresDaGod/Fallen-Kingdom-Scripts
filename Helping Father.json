@@ -20,7 +20,7 @@
 	],
 	"If": [],
 	"Completed": "helping_mother",
-	"Skip": "If",
+	"Skip": "CreateEntity",
 	"SendMessage":"You haven't helped &3&lKristen &fyet.",
 	"Leave": [],
 
