@@ -61,7 +61,7 @@
 		"Kristen": "I was wondering if you were able to help us again?"
 	}],
 
-	"SendMessageOptions": ["&2&lYes", "&3&lNo"],
+	"SendMessageOptions": ["&2&lYes", "&4&lNo"],
 	"Skip": "Yes",
 	"Dialog": [{
 		"Kristen": "Very well.. Thank you again for what youve done for Willie Jr."
