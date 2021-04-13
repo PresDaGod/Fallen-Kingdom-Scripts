@@ -21,7 +21,7 @@
 	"If": [],
 	"Completed": "helping_mother",
 	"Skip": "CreateEntity",
-	"SendMessage":"You haven't helped &3&lKristen &fyet.",
+	"SendMessage": "You haven't helped &3&lKristen &fyet.",
 	"Leave": [],
 
 	"If": [],
@@ -60,9 +60,9 @@
 		31.0,
 		574.5
 	],
-  "Look": ["center", 240],
-  "MoveEntity": ["robber", 2039.5, 22.0, 573.5],
-  "Wait": 30,
+	"Look": ["center", 240],
+	"MoveEntity": ["robber", 2039.5, 22.0, 573.5],
+	"Wait": 30,
 	"CreateEntity": {
 		"key": "robber2",
 		"skin": {
@@ -71,13 +71,13 @@
 		},
 		"location": [2039.5, 22.0, 573.5, 0.0],
 		"hand": "Diamond",
-		"offhand": "Gold Ingot",
+		"offhand": "Gold Ingot"
 	},
 	"Hide": "robber2",
 	"Hide": "robber",
 	"Show": "robber2",
 	"Wait": 30,
-  "MoveEntity": ["robber2", 2039.5, 22.0, 557.5],
+	"MoveEntity": ["robber2", 2039.5, 22.0, 557.5],
 	"Fade": [],
 	"StopCinematic": [],
 	"Teleport": [
@@ -156,36 +156,36 @@
 		"Willie": "They need some new armor, however I do not have enough leather",
 		"Willie": "I heard that Rabbit Hide could also be used within armor",
 		"Willie": "Could you bring me &6256Rabbit Hide&f?"
-		}],
+	}],
 
-		"Skip": "HighlightClickEntity",
-		"Comment": "loop3",
-		"SendMessage": "&cYou do not have enough &6Rabbit Hide &cat this time.",
+	"Skip": "HighlightClickEntity",
+	"Comment": "loop3",
+	"SendMessage": "&cYou do not have enough &6Rabbit Hide &cat this time.",
 
-		"HighlightClickEntity": [
-			"Willie"
-		],
+	"HighlightClickEntity": [
+		"Willie"
+	],
 
-		"If": [],
-		"HasItem": [{
-			"material": "Rabbit Hide",
-			"amount": "256"
-		}],
-		"Skip": "TakeItem",
-		"Skip": "loop3",
+	"If": [],
+	"HasItem": [{
+		"material": "Rabbit Hide",
+		"amount": "256"
+	}],
+	"Skip": "TakeItem",
+	"Skip": "loop3",
 
-		"TakeItem": [{
-			"material": "Rabbit Hide",
-			"amount": "256"
-		}],
+	"TakeItem": [{
+		"material": "Rabbit Hide",
+		"amount": "256"
+	}],
 
-		"Dialog": [{
-			"Willie": "This will do perfectly",
-			"Willie": "I thank you for all that you have done for my family.",
-			"Willie": "We are forever in your debt",
-			"Willie": "In fact, I do have a reward for you here"
-			}],
+	"Dialog": [{
+		"Willie": "This will do perfectly",
+		"Willie": "I thank you for all that you have done for my family.",
+		"Willie": "We are forever in your debt",
+		"Willie": "In fact, I do have a reward for you here"
+	}],
 
-		"Start": "helping_father_rewards",
-		"CompleteKingdomQuest": []
+	"Start": "helping_father_rewards",
+	"CompleteKingdomQuest": []
 }
