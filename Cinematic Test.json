@@ -29,7 +29,7 @@
 		31.0,
 		574.5
 	],
-  "Look": ["center", 200],
+  "Look": ["center", 240],
   "MoveEntity": ["robber", 2039.5, 22.0, 573.5],
   "Wait": 60,
   "MoveEntity": ["robber", 2039.5, 22.0, 557.5],
