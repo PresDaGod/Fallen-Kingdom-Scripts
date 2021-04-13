@@ -74,7 +74,11 @@
 		"hand": "Diamond",
 		"offhand": "Gold Ingot"
 	},
+	"Show": {
+		"robber2": false
+	},
 	"Hide": "robber",
+	"Show": "robber2",
 	"Wait": 30,
   "MoveEntity": ["robber2", 2039.5, 22.0, 557.5],
 	"Fade": [],
