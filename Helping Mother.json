@@ -57,8 +57,8 @@
 	"Wait": 30,
 
 	"Dialog": [{
-		"Kristen": "Willie Jr has talked very highly of how much you helped him.",
-		"Kristen": "I was wondering if you were  able to help us again?"
+		"Kristen": "&b&lWillie Jr &fhas talked very highly of how much you helped him.",
+		"Kristen": "I was wondering if you were able to help us again?"
 	}],
 
 	"SendMessageOptions": ["&2&lYes", "&3&lNo"],
