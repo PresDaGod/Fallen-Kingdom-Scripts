@@ -3,7 +3,7 @@
 	"Key": "helping_father",
 	"Name": "&b&lHelping Father",
 	"Description": "Help Willie Jr's father complete various tasks",
-	"Quest": false,
+	"Quest": true,
 	"AllowRejoining": true,
 	"Icon": {
 		"material": "Player Head",
