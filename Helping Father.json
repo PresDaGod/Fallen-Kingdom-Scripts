@@ -22,8 +22,9 @@
 			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODM0MTI3NjgyMSwKICAicHJvZmlsZUlkIiA6ICI2MWVhMDkyM2FhNDQ0OTEwYmNlZjViZmQ2ZDNjMGQ1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVEYXJ0aEZhdGhlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZjYwOTUwZGM0ODYwNTMwNDFlZTI4MDQxODM3Y2YwZjlmMTI5ZTk5MWIzYWY5ZjVkMDJhZTM2ZjZjZDZjMjg1IgogICAgfQogIH0KfQ==",
 			"signature": "N78WMSp+vQWGuzOSBqA4figVeGNpgQO0VsDiQotQtzTNAvlkrd8IQDve7S8DC0gugzTzUSTKNmAF5ZyJndrTOUo3CrzzNvOYg9njewBuKPrY5DLxFHZepLnFd9Vnee5UszZ0xzvhbaTi6t6DWEWTlwDyoAYFe9QvdE47XbHx7gqoWzXzYrQ8SEXA6ugcyqE7PacMTrvJZiqhiMf+imu7G2+2mRxKSF1i/mVLw5uzF4DDcVTtErbRmYaLrw5DIc4GZIQT4qMuCvNTcV5+VDjxIRMRFC9NfsidamQDHbFj0gNW1G1i/PPp1F3qVgxKCNKePlS/R2Qmos+8/aBtieVnbCgZViQa0fUuwOI1wyR+z/IOf0UNrWb7ALhdAA22tssHdir2JmsE74oDdTgKYpqyDyx3R0tXHxe3pd3o67YwLdgikVgZfhH3B7WqbdXHzvd0+oievB+eWUROYTDVL2kg4a8h99z7uyamUStdtgHrCpi5vnA6IUHrMOEgi5s/82N6VNelJTDOlcifLMWEWJuPpkklqFLi2HTHea10ErLpNp0QOCWckxLyqmJJJSUzEsHXLeelkh7I7BeaHexQ3KfUB828i4Mj5W7Z1CT5uqAV5V/ArbHr/0diCE9vLgFBtRyqU8c9D7vFtmnbaQWGlyjIz0ynDpuqiR5KQZ5s3xnQNEM="
 		},
-		"location": [2039.5, 22, 557.5]
+		"location": [2039.5, 22, 557.5],
 	},
+	"Server": [],
 	"Hide": "robber",
 
 	"CreateEntity": {
@@ -36,6 +37,7 @@
 		"hand": "Diamond",
 		"offhand": "Gold Ingot"
 	},
+	"Server": [],
 	"Hide": "robber2",
 
 	"HighlightClickEntity": [
