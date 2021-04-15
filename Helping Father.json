@@ -24,6 +24,7 @@
 		},
 		"location": [2039.5, 22, 557.5]
 	},
+	"Hide": "robber",
 
 	"CreateEntity": {
 		"key": "robber2",
@@ -75,6 +76,7 @@
 		31.0,
 		574.5
 	],
+	"Show": "robber",
 	"Look": ["center", 240],
 	"MoveEntity": ["robber", 2039.5, 22.0, 573.5],
 	"Wait": 30,
@@ -89,6 +91,7 @@
 		29.0,
 		638.0
 	],
+	"Hide": "robber2",
 
 	"HighlightClickEntity": [
 		"Willie"
