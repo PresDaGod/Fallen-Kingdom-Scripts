@@ -5,6 +5,13 @@
 	"Description": "Help Willie Jr's father complete various tasks",
 	"Quest": false,
 	"AllowRejoining": true,
+	"Icon": {
+		"material": "Player Head",
+		"skin": {
+			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMjg4ODM1NTAwNSwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmYjBjZTJlOTc4NWM5MGViMTk4NTUxYzI2YTBiNDk2OWVmNjU3ZDE3Y2M4NDY2MTYxNmZiYzkwZDRmZjA4YSIKICAgIH0KICB9Cn0=",
+			"signature": "kuU5YYMwepxdjGl1rifgM+Lywct97VZqEcOyZte8v9nKr/rH8Y+BTpfh47Z/mEOlhOmC/GZ/aTnJcg3IjrSz9y7hWXg6F/OagXYImUeNTdK/yX3dENQxj6U6Spb3ib+TbdRzUlAkhRnmZNCocwbAoQItRSjt7bqZxB11KtB4wSeiRBy8GE2amCHaVR3bmerSlsg+PtGLVNWGZArGjmSpSPpyq671FZVUaXtPkv+FiLF+tHdeBK91allFrIa19qMKJ0kxU1hFq0OovO8uSFv+efBkKNoQRwJAfZs/EQCgOvQ/EWC95Xjm11UKRDGLabffmu/C+Du3kIg/0GcxBQPOxejMbjnrtFcNmYJDa7yZEdW7PLaUgiobetlQK3XVXYnCYKX7qE1zh554PemDyyDlpb/ngDZfywtpMnv4Eekv6U+sM52i4COdqMGy8ldCH7Lx3eEPKnTA/VlnQOnaePDdQkl6VptN7ywsXwpIio5Rfbm0w413HxTAGppvD5FfxSiPhAirpR7swmy7dqZoBLZhYBB3wpYJ98sJej8oRDa1GHR6RELwvdSkTBvoeHpunnSVWXN6v1ZDHwBcZDMzGWThcv4DjivYwTlf5FiC1gSSpKvPz1CLhpDMlvE3sI9O2bqZI/mGMUvFivb3koCS0v0v4spyALJ0lyqAijSRJzhEo2I="
+		}
+	},
 
 	"CreateEntity": {
 		"key": "Willie",
@@ -132,7 +139,7 @@
 
 	"Dialog": [{
 		"Willie": "Thank you so very much! You have no idea how much this means.",
-		"Willie": "While you were gone I also discovered the bandit also got into our gold stash",
+		"Willie": "While you were gone I also discovered the bandit got into our gold stash",
 		"Willie": "We need that gold in order to pay our taxes",
 		"Willie": "Could you bring us &696 Gold Ingots&f?"
 	}],
@@ -164,7 +171,7 @@
 		"Willie": "It has occurred to me that my family not protected enough against robbers",
 		"Willie": "They need some new armor, however I do not have enough leather",
 		"Willie": "I heard that Rabbit Hide could also be used within armor",
-		"Willie": "Could you bring me &6256Rabbit Hide&f?"
+		"Willie": "Could you bring me &6256 Rabbit Hide&f?"
 	}],
 
 	"Skip": "HighlightClickEntity",
