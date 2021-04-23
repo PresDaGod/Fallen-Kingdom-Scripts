@@ -22,6 +22,8 @@
 		"cape": false
 	},
 
+	"SendMessage": "&6Objective: Talk to Tiny Tim located in the barracks within the hub",
+
 	"HighlightClickEntity": [
 		"Tiny Tim"
 	],
