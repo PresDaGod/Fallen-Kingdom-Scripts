@@ -1,6 +1,5 @@
 {
 	"Key": "oremuncher_lore",
-	"ServerType": "Hub",
 	"Name": "Ore Muncher Lore",
 	"Description": "Learn how the Ore Munchers came to be",
 	"Quest": true,
