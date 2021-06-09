@@ -12,8 +12,8 @@
 	"CreateEntity": {
 		"key": "cormac",
 		"skin": {
-			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjM3ODMyNTY3MCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FiODc4MTMyNjYyMzNiYmQ5MDA2ZWY5ZGRlYTAwNDUyZjlkNGU1MGRmNjMyNWRhZWI1MTBmYWU1M2U0Y2U0MyIKICAgIH0KICB9Cn0=",
-			"signature": "nn8JX6bBUwUp1viVlHlDG4R76RfhotJkDKVqrD1KtO4XQaoqVNBOvu7HaIvM/YDbG6hwa4oCcq4HgAqFPYYsahQioqnqYkI3nZ1TZD0c2e0HN0UZsBuOjUMPZ76XxL+XJJOQ0BZ5HIicffpCc8ERiKrWdV4h6SdVkw1/e5CXhLESj0jo/izUNyNAWyJOUiSaP3OdATH7lpNBm4eXAHKkAGTke0ed5YH2yyGnOlTcNmxKIQ/QtlOSyvUeg0IdAqcDVVIycW+reBHUYtjQAW753LvLaVoS+XI6/2dLOP+nX4nZaR5ETV2j/MrGzXtUXsTlT7Ar/WHD/C+sNvKt3wNOt2rQhM/tfSLhklMEptrJe8hlYVh35NirOKVc9GUQrnATMIgwz09pkStbnvnbT4YjQhaxOYhmlJ+fB+GqfcXkXVD55rvPKx7vIDto5++dRKjK1CQ6HZXJ/AKl0cLsN+MAx8P1R96CIVQAJRNteJzO+U7daaBR339Pk8BmoB4gGbdMO/J7hjFXNjDODY0OFH1lXprMdNriOPvzM4rgiI3kIUB+c9y2oYlOQzgpoLETCnJ2xQHk7PIfuBi+1bl1hx6F/8sNRFNPQwxK/Xv4vGMgXmldmjl0r6twtVTSUKwlfFCJ407xzkQVqse8SUowY7LOCuN0BhEjQwVKD/aVMkd/zTk="
+			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzI1MDMwODI3NiwKICAicHJvZmlsZUlkIiA6ICJkMGI4MjE1OThmMTE0NzI1ODBmNmNiZTliOGUxYmU3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYmFydHl5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1ZTU4NWZiM2IyMmFlYjIzYTk0YjU5NzBlN2U1OTM4NTc1NzEwYmQ2YjBlZmE0NjQ1ZDczZTRjY2Q4NzBjNzIiCiAgICB9CiAgfQp9",
+			"signature": "RpChlZKXhT6dE9KbZtDB/7koZClYe49Dwr1uriTe62ulbjlLC7ag02zU7lrdx6l3gRQyWBi6WS6A7s9FfD/GVUoyXHD86g8dHYIoiNp04l2MsFPipeYuHdvTuweCulJ+GXgpDkHO1jLredAlqjUi/PYI3eijKSl45GjW+51s65fJNEEPYmL2KaW3T5B1uORC2utqt+vV956bfqW3C9O1iW4Wbbj8ZbyiB7tTyO1DQcEv+YjdV0ZGPSiCKVixKWh3JedyWmh7iuObS5wexB52MlsDKYP5wVYNSu79wvpxDRkLDEZqO0ZvPDtxmkwE7LXxYsLEOsljoEe0lEQXdlE7B0yKBnTZ+IqVotQJ6WuV9/f+Zj/qjQbvqNhyB2ZBQdg3FB5xEDpTSuYYYn3IL94Wdq7OuT3zQoLM/yxwo0swb7Qn0BOjINfS7UFdtglUq2Oajh58p0m7v7RkgOAo0Wki51/YGlN8DiY6d6YWTZt1AMZ5cnT/ziSTzz3N45JRVx6fXFZcLX1NrTUU4OaEsGLtCqtc53XIdX1W/Kd2Yja+0rAFxQFLvvfeaHBoDjcfosOxso4MA6CFxfUDQNPQxy6c98VRyNokPk9DBrO/h8o8e7h2rHRECnIztVkOOez07bYUuM7qR8Gn72Vc+ivf7GTrl2Mph5Mzf1kR390qbZnM+TA="
 		},
 		"location": {
       "x":2053.5,
@@ -47,7 +47,7 @@
 	}],
 
 	"Dialog": [{
-		"[Player]": "I'm sorry for intruding, I got lost on my way throughout the kingdom."
+		"[PLAYER]": "I'm sorry for intruding, I got lost on my way throughout the kingdom."
 	}],
 
 	"Dialog": [{
@@ -55,7 +55,7 @@
 	}],
 
 	"Dialog": [{
-		"[Player]": "Whats the condition?"
+		"[PLAYER]": "Whats the condition?"
 	}],
 
 	"Dialog": [{
@@ -66,8 +66,8 @@
 	"Wait": 50,
 
 	"Dialog": [{
-		"[Player]": "I dont know too much about these creatures...",
-		"[Player]": "I'm not sure how much help i will be"
+		"[PLAYER]": "I dont know too much about these creatures...",
+		"[PLAYER]": "I'm not sure how much help i will be"
 	}],
 
 	"Dialog": [{
