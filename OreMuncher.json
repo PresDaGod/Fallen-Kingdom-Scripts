@@ -1,0 +1,100 @@
+{
+  "Key":"oremuncher_lore",
+  "ServerType": "Hub",
+  "Name": "Ore Muncher Lore",
+  "Description": "Learn how the Ore Munchers came to be",
+  "Quest": true,
+  "Author": "PresDaGod",
+  "Icon": {
+    "material": "Shulker Shell"
+  },
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "cormac",
+    "skin": {
+      "texture":
+      "Signature":
+    },
+    "location": [2053.5,22,594.5],
+    "Name": "Cormac",
+    "cape": false
+  },
+
+  "SendMessage": "Talk to Cormac in the hub",
+
+  "HighlightClickEntity" [
+    "irish_name"
+  ],
+
+  "If": [],
+  "HasKingdomBuilding": [
+    "mine",
+    4
+  ],
+  "Skip": "Dialog",
+  "SendMessage": "You need mines IV to start this quest",
+  "Leave": "oremuncher_lore",
+
+  "Dialog": [{
+    "Cormac": "Ah! What are you doing here!",
+    "Cormac": "No one is supposed to be in my lab and see what my secret project it!!!"
+    }],
+
+  "Dialog": [{
+    "[Player]": "I'm sorry for intruding, I got lost on my way throughout the kingdom."
+    }],
+
+  "Dialog": [{
+    "Cormac": "Hmm I suppose its alright, on one condition."
+    }],
+
+  "Dialog": [{
+    "[Player]": "Whats the condition?"
+    }],
+
+  "Dialog": [{
+    "Cormac": "You must help me uncover how these Ore Munchers were created.",
+    "Cormac": "Ever since I was a young boy helping my family gather materials I have wondered how they were created and how they got here.",
+    }],
+
+    "Wait": 50,
+
+    "Dialog": [{
+      "[Player]": "I dont know too much about these creatures...",
+      "[Player]": "I'm not sure how much help i will be"
+      }],
+
+    "Dialog": [{
+      "Cormac": "Nonsense, I will tell you all you need to know and what to do"
+        }],
+
+    "Dialog": [{
+        "[PLAYER]": "Alright then I am happy to help!"
+        }],
+
+    "Dialog": [{
+      "Cormac": "Perfect!",
+      "Cormac": "The first thing I need you to do is go to the mines and kill some oremunchers in order to study their behaviors"
+        }],
+
+    "Start": ["oremuncher_kill_quest"],
+
+    "Hold": [],
+
+    "ProvideItem": [
+    "Cormac",
+    "Item": {
+      "material": "Ender Eye",
+      "amount": 1,
+      "name": "&4Ender Souls",
+      "description": "PlacerHolder",
+      "glow": true
+    },
+    5
+  ],
+
+
+
+
+}
