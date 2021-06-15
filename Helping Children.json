@@ -118,11 +118,8 @@
 		"material": "Bone",
 		"amount": "64"
 	}],
-	"Skip": "TakeItem",
-	"Skip": "loop2",
-
 	"Skip": "SendMessage",
-	"Skip": "loop",
+	"Skip": "loop2",
 
 	"Comment": "Bones",
 	"HighlightClickEntity": [
