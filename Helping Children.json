@@ -75,8 +75,18 @@
 		"material": "Rotten Flesh",
 		"amount": "64"
 	}],
-	"Skip": "TakeItem",
+	"Skip": "SendMessage",
 	"Skip": "loop",
+
+	"Comment": "Rotten",
+	"HighlightClickEntity": [
+		"Willie Jr"
+	],
+
+	"SendMessage": "&2Would you like to give &b&lWillie Jr &664 Rotten Flesh&2?",
+	"SendMessageOptions": ["&2&lYes", "&4&lNo"],
+	"Skip": "TakeItem",
+	"Skip": "Rotten",
 
 	"TakeItem": [{
 		"material": "Rotten Flesh",
@@ -110,6 +120,19 @@
 	}],
 	"Skip": "TakeItem",
 	"Skip": "loop2",
+
+	"Skip": "SendMessage",
+	"Skip": "loop",
+
+	"Comment": "Bones",
+	"HighlightClickEntity": [
+		"Willie Jr"
+	],
+
+	"SendMessage": "&2Would you like to give &b&lWillie Jr &664 Bones&2?",
+	"SendMessageOptions": ["&2&lYes", "&4&lNo"],
+	"Skip": "TakeItem",
+	"Skip": "Bones",
 
 	"TakeItem": [{
 		"material": "Bone",
